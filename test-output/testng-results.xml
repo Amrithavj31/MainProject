@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-06T22:29:10 IST" name="Default suite" finished-at="2025-12-06T22:30:40 IST" duration-ms="89920">
+    <groups>
+    </groups>
+    <test started-at="2025-12-06T22:29:10 IST" name="Default test" finished-at="2025-12-06T22:30:40 IST" duration-ms="89920">
+      <class name="tests.DashboardTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.DashboardTest@443118b0]" started-at="2025-12-06T22:29:10 IST" name="setup" finished-at="2025-12-06T22:29:14 IST" duration-ms="3243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="articlesBug()[pri:0, instance:tests.DashboardTest@443118b0]" started-at="2025-12-06T22:29:14 IST" name="articlesBug" finished-at="2025-12-06T22:29:18 IST" duration-ms="4360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- articlesBug -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DashboardTest@443118b0]" started-at="2025-12-06T22:29:18 IST" name="tearDown" finished-at="2025-12-06T22:29:18 IST" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.DashboardTest@443118b0]" started-at="2025-12-06T22:29:18 IST" name="setup" finished-at="2025-12-06T22:29:24 IST" duration-ms="6092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="bookingTable()[pri:0, instance:tests.DashboardTest@443118b0]" started-at="2025-12-06T22:29:24 IST" name="bookingTable" finished-at="2025-12-06T22:29:26 IST" duration-ms="1728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookingTable -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DashboardTest@443118b0]" started-at="2025-12-06T22:29:26 IST" name="tearDown" finished-at="2025-12-06T22:29:26 IST" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.DashboardTest@443118b0]" started-at="2025-12-06T22:29:26 IST" name="setup" finished-at="2025-12-06T22:29:33 IST" duration-ms="6633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="findBugs()[pri:0, instance:tests.DashboardTest@443118b0]" started-at="2025-12-06T22:29:33 IST" name="findBugs" finished-at="2025-12-06T22:29:37 IST" duration-ms="4242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findBugs -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DashboardTest@443118b0]" started-at="2025-12-06T22:29:37 IST" name="tearDown" finished-at="2025-12-06T22:29:37 IST" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.DashboardTest@443118b0]" started-at="2025-12-06T22:29:37 IST" name="setup" finished-at="2025-12-06T22:29:44 IST" duration-ms="6368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="helpLink()[pri:0, instance:tests.DashboardTest@443118b0]" started-at="2025-12-06T22:29:44 IST" name="helpLink" finished-at="2025-12-06T22:29:45 IST" duration-ms="1473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- helpLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DashboardTest@443118b0]" started-at="2025-12-06T22:29:45 IST" name="tearDown" finished-at="2025-12-06T22:29:45 IST" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.DashboardTest@443118b0]" started-at="2025-12-06T22:29:45 IST" name="setup" finished-at="2025-12-06T22:29:51 IST" duration-ms="6145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="reportBugs()[pri:0, instance:tests.DashboardTest@443118b0]" started-at="2025-12-06T22:29:51 IST" name="reportBugs" finished-at="2025-12-06T22:29:57 IST" duration-ms="5864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportBugs -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DashboardTest@443118b0]" started-at="2025-12-06T22:29:57 IST" name="tearDown" finished-at="2025-12-06T22:29:57 IST" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.DashboardTest@443118b0]" started-at="2025-12-06T22:29:57 IST" name="setup" finished-at="2025-12-06T22:30:04 IST" duration-ms="6377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchButton()[pri:0, instance:tests.DashboardTest@443118b0]" started-at="2025-12-06T22:30:04 IST" name="searchButton" finished-at="2025-12-06T22:30:06 IST" duration-ms="1949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DashboardTest@443118b0]" started-at="2025-12-06T22:30:06 IST" name="tearDown" finished-at="2025-12-06T22:30:06 IST" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.DashboardTest@443118b0]" started-at="2025-12-06T22:30:06 IST" name="setup" finished-at="2025-12-06T22:30:12 IST" duration-ms="6298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="sendButtonLink()[pri:0, instance:tests.DashboardTest@443118b0]" started-at="2025-12-06T22:30:12 IST" name="sendButtonLink" finished-at="2025-12-06T22:30:14 IST" duration-ms="1534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendButtonLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DashboardTest@443118b0]" started-at="2025-12-06T22:30:14 IST" name="tearDown" finished-at="2025-12-06T22:30:14 IST" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.DashboardTest@443118b0]" started-at="2025-12-06T22:30:14 IST" name="setup" finished-at="2025-12-06T22:30:20 IST" duration-ms="6383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="socialShareLink()[pri:0, instance:tests.DashboardTest@443118b0]" started-at="2025-12-06T22:30:20 IST" name="socialShareLink" finished-at="2025-12-06T22:30:23 IST" duration-ms="2585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- socialShareLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DashboardTest@443118b0]" started-at="2025-12-06T22:30:23 IST" name="tearDown" finished-at="2025-12-06T22:30:23 IST" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.DashboardTest@443118b0]" started-at="2025-12-06T22:30:23 IST" name="setup" finished-at="2025-12-06T22:30:30 IST" duration-ms="7211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="typeOfBugs()[pri:0, instance:tests.DashboardTest@443118b0]" started-at="2025-12-06T22:30:30 IST" name="typeOfBugs" finished-at="2025-12-06T22:30:32 IST" duration-ms="1681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typeOfBugs -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DashboardTest@443118b0]" started-at="2025-12-06T22:30:32 IST" name="tearDown" finished-at="2025-12-06T22:30:32 IST" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.DashboardTest@443118b0]" started-at="2025-12-06T22:30:32 IST" name="setup" finished-at="2025-12-06T22:30:39 IST" duration-ms="6689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="videoPlayer()[pri:0, instance:tests.DashboardTest@443118b0]" started-at="2025-12-06T22:30:39 IST" name="videoPlayer" finished-at="2025-12-06T22:30:40 IST" duration-ms="1265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- videoPlayer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DashboardTest@443118b0]" started-at="2025-12-06T22:30:40 IST" name="tearDown" finished-at="2025-12-06T22:30:40 IST" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.DashboardTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
