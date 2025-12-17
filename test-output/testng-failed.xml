@@ -3,14 +3,23 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.DashboardTest">
+      <class name="tests.SocialShareTest">
         <methods>
-          <include name="bookingTable"/>
+          <include name="tearDownTest"/>
+          <include name="verifyEmailLinkRedirection"/>
+          <include name="verifyCloseButtonLinkRedirection"/>
+          <include name="verifyPensionLinkRedirection"/>
+          <include name="verifyLogoLinkRedirection"/>
+          <include name="initPage"/>
+          <include name="verifyFacebookLinkRedirection"/>
+          <include name="verifyDateLinkRedirection"/>
+          <include name="verifyTwitterLinkRedirection"/>
+          <include name="verifyPinterestLinkRedirection"/>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="helpLink"/>
+          <include name="verifyMaintenanceLinkRedirection"/>
         </methods>
-      </class> <!-- tests.DashboardTest -->
+      </class> <!-- tests.SocialShareTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

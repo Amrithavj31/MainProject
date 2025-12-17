@@ -1,121 +1,89 @@
 package tests;
 
 import org.testng.Assert;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import pages.DashboardPage;
 
 public class DashboardTest extends BaseTest {
-	 @Test
-	 public void typeOfBugs() {
-	        driver.get("https://academybugs.com/types/");
-	        String title = driver.getTitle();
-	        Assert.assertTrue(
-	                title.contains("Types of Bugs – AcademyBugs.com"),
-	                "The page title does not contain 'Types of Bugs – AcademyBugs.com'. Actual title: " + title
-	        );
-
-	        System.out.println("Test case: Successfully redirected into Type of Bugs link");
+	private DashboardPage dashboard;
+	
+	 @BeforeMethod
+	    public void initPage() {
+		 dashboard = new DashboardPage(driver);
 	    }
-	@Test
-    public void findBugs() {
-        driver.get("https://academybugs.com/find-bugs/");
-        String title = driver.getTitle();
-        Assert.assertTrue(
-                title.contains("Find Bugs – AcademyBugs.com"),
-                "The page title does not contain 'Find Bugs – AcademyBugs.com'. Actual title: " + title
-        );
-
-        System.out.println("Test case: Successfully redirected into Find bugs link");
+	 @Test(priority=1)
+	 public void verifyExampleOfBugLinkRedirection() {
+		  int resp = dashboard.exampleOfBugLink();
+		  Assert.assertTrue(resp > 0, "Example of bug tab retrieved successfully");
+		  System.out.println("Test case : Example of bug navigated successfully!! ");
+	 }
+	 @Test(priority=2)
+	 public void verifyTypeOfBugLinkRedirection() {
+		 int resp = dashboard.typeOfBugLink();
+		 Assert.assertTrue(resp > 0, "Type of bug tab retrieved successfully");
+		 System.out.println("Test case : Type of bug navigated successfully!! ");
+	 }
+	 @Test(priority=3)
+	 public void verifyFindBugLinkRedirection() {
+		 int resp = dashboard.findBugLink();
+		 Assert.assertTrue(resp > 0, "Find bug tab retrieved successfully");
+		 System.out.println("Test case : Find bug navigated successfully!! ");
+	 }
+	@Test(priority=4)
+    public void verifyReportBugLinkRedirection() {
+		int resp = dashboard.reportBugLink();
+		Assert.assertTrue(resp > 0, "Report bug tab retrieved successfully");
+		System.out.println("Test case : Report bug navigated successfully!! ");
     }
-	@Test
-    public void reportBugs() {
-        driver.get("https://academybugs.com/report-bugs/");
-        String title = driver.getTitle();
-        Assert.assertTrue(
-                title.contains("Report Bugs – AcademyBugs.com"),
-                "The page title does not contain 'Report Bugs – AcademyBugs.com'. Actual title: " + title
-        );
-
-        System.out.println("Test case: Successfully redirected into Report Bug link");
+	@Test(priority=5)
+    public void verifySocialShareLinkRedirection() {
+		int resp = dashboard.socialShare();
+		Assert.assertTrue(resp > 0, "Social share bug tab retrieved successfully");
+		System.out.println("Test case : Social share bug navigated successfully!! ");
     }
-	@Test
-    public void socialShareLink() {
-		driver.get("https://academybugs.com/");
-        DashboardPage dashboard = new DashboardPage(driver);
-        int valid=dashboard.socialShare();
-        Assert.assertTrue(valid > 0, 
-                "Test Failed: social share element NOT found on the page!");
 
-        // If assertion passes
-        System.out.println("Successfully redirected!!! - Social share element exists.");
-       
+	@Test(priority=6)
+    public void verifySendButtonLinkRedirection() {
+		int resp = dashboard.sendButtonBug();
+		Assert.assertTrue(resp > 0, " Send button tab bug retrieved successfully");
+		System.out.println("Test case : Send button bug navigated successfully!! ");
     }
-	@Test
-    public void sendButtonLink() {
-		driver.get("https://academybugs.com/");
-        DashboardPage dashboard = new DashboardPage(driver);
-        int valid=dashboard.sendButtonBug();
-        Assert.assertTrue(valid > 0, 
-                "Test Failed: send button element NOT found on the page!");
-
-        // If assertion passes
-        System.out.println("Successfully redirected!!! - send button element exists.");
+	@Test(priority=7)
+    public void verifyVideoPlayerLinkRedirection() {
+		int resp = dashboard.videoLinkBug();
+		Assert.assertTrue(resp > 0, "Video player bug retrieved successfully");
+		System.out.println("Test case : Video player bug navigated successfully!! ");
     }
-	@Test
-    public void videoPlayer() {
-		driver.get("https://academybugs.com/");
-        DashboardPage dashboard = new DashboardPage(driver);
-        int valid=dashboard.sendButtonBug();
-        Assert.assertTrue(valid > 0, 
-                "Test Failed: video link element NOT found on the page!");
-
-        // If assertion passes
-        System.out.println("Successfully redirected!!! -  video linke element exists.");
+	@Test(priority=8)
+    public void verifyArticlesBugLinkRedirection() {
+		int resp= dashboard.articlesBug();
+		Assert.assertTrue(resp > 0, " Articles bug retrieved successfully");
+		System.out.println("Test case : Articles bug navigated successfully!! ");
     }
-	@Test
-    public void articlesBug() {
-		driver.get("https://academybugs.com/");
-        DashboardPage dashboard = new DashboardPage(driver);
-        int valid=dashboard.articlesBug();
-        Assert.assertTrue(valid > 0, 
-                "Test Failed: video link element NOT found on the page!");
-
-        // If assertion passes
-        System.out.println("Successfully redirected!!! -  video linke element exists.");
+	@Test(priority=9)
+    public void verifySearchButtonLinkRedirection() {
+		int resp = dashboard.searchBug();
+		Assert.assertTrue(resp > 0, " Search button bug retrieved successfully");
+		System.out.println("Test case : Search button bug navigated successfully!! ");
     }
-	@Test
-    public void searchButton() {
-		driver.get("https://academybugs.com/");
-        DashboardPage dashboard = new DashboardPage(driver);
-        int valid=dashboard.searchBug();
-        Assert.assertTrue(valid > 0, 
-                "Test Failed: search button element NOT found on the page!");
-
-        // If assertion passes
-        System.out.println("Successfully redirected!!! - search button link element exists.");
+	@Test(priority=10)
+    public void verifybookingTableLinkRedirection() {
+		int resp = dashboard.bookingBug();
+		Assert.assertTrue(resp > 0, "Booking table tab bug retrieved successfully");
+		System.out.println("Test case : Booking table bug navigated successfully!! ");
     }
-	@Test
-    public void bookingTable() {
-		driver.get("https://academybugs.com/");
-        DashboardPage dashboard = new DashboardPage(driver);
-        int valid=dashboard.bookingBug();
-        Assert.assertTrue(valid > 0, 
-                "Test Failed: booking table element NOT found on the page!");
-
-        // If assertion passes
-        System.out.println("Successfully redirected!!! - booking table link element exists.");
+	@Test(priority=11)
+    public void verifyHelpLinkRedirection() {
+		int resp=dashboard.helpLink();
+		Assert.assertTrue(resp > 0, "Help link icon bug retrieved successfully");
+		System.out.println("Test case : Help link icon navigated successfully!! ");
     }
-	@Test
-    public void helpLink() {
-		driver.get("https://academybugs.com/");
-        DashboardPage dashboard = new DashboardPage(driver);
-        int valid=dashboard.helpLink();
-        Assert.assertTrue(valid > 0, 
-                "Test Failed: help link button element NOT found on the page!");
-
-        // If assertion passes
-        System.out.println("Successfully redirected!!! - help link element exists.");
-    }
+	@AfterTest
+	public void tearDownTest() {
+	    driver.quit();
+	}
 	  
 }
