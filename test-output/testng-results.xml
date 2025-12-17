@@ -1,245 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="20" passed="11" failed="9" skipped="0">
+<testng-results ignored="0" total="20" passed="16" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-16T20:38:58 IST" name="Default suite" finished-at="2025-12-16T20:42:50 IST" duration-ms="231745">
+  <suite started-at="2025-12-17T19:32:31 IST" name="Default suite" finished-at="2025-12-17T19:34:56 IST" duration-ms="145037">
     <groups>
     </groups>
-    <test started-at="2025-12-16T20:38:58 IST" name="Default test" finished-at="2025-12-16T20:42:50 IST" duration-ms="231745">
+    <test started-at="2025-12-17T19:32:31 IST" name="Default test" finished-at="2025-12-17T19:34:56 IST" duration-ms="145037">
       <class name="tests.SocialShareTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SocialShareTest@49438269]" started-at="2025-12-16T20:38:58 IST" name="setup" finished-at="2025-12-16T20:39:41 IST" duration-ms="43320" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:32:31 IST" name="setup" finished-at="2025-12-17T19:32:37 IST" duration-ms="6200" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SocialShareTest@49438269]" started-at="2025-12-16T20:39:41 IST" name="initPage" finished-at="2025-12-16T20:39:41 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:32:37 IST" name="initPage" finished-at="2025-12-17T19:32:37 IST" duration-ms="24" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPage -->
-        <test-method signature="verifySocialTabRedirection()[pri:1, instance:tests.SocialShareTest@49438269]" started-at="2025-12-16T20:39:41 IST" name="verifySocialTabRedirection" finished-at="2025-12-16T20:39:42 IST" duration-ms="171" status="PASS">
+        <test-method signature="verifySocialTabRedirection()[pri:1, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:32:37 IST" name="verifySocialTabRedirection" finished-at="2025-12-17T19:32:37 IST" duration-ms="118" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySocialTabRedirection -->
-        <test-method signature="verifySocialSharePopupIsDisplayed()[pri:2, instance:tests.SocialShareTest@49438269]" started-at="2025-12-16T20:39:42 IST" name="verifySocialSharePopupIsDisplayed" finished-at="2025-12-16T20:39:43 IST" duration-ms="1238" status="PASS">
+        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:32:37 IST" name="initPage" finished-at="2025-12-17T19:32:37 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="verifySocialSharePopupIsDisplayed()[pri:2, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:32:37 IST" name="verifySocialSharePopupIsDisplayed" finished-at="2025-12-17T19:32:38 IST" duration-ms="1177" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySocialSharePopupIsDisplayed -->
-        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SocialShareTest@49438269]" started-at="2025-12-16T20:39:42 IST" name="initPage" finished-at="2025-12-16T20:39:42 IST" duration-ms="0" status="PASS">
+        <test-method signature="verifyCloseButtonLinkRedirection()[pri:3, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:32:38 IST" name="verifyCloseButtonLinkRedirection" finished-at="2025-12-17T19:32:38 IST" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCloseButtonLinkRedirection -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:32:38 IST" name="initPage" finished-at="2025-12-17T19:32:38 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPage -->
-        <test-method signature="verifyArticleListRedirection()[pri:3, instance:tests.SocialShareTest@49438269]" started-at="2025-12-16T20:39:43 IST" name="verifyArticleListRedirection" finished-at="2025-12-16T20:39:43 IST" duration-ms="173" status="PASS">
+        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:32:38 IST" name="initPage" finished-at="2025-12-17T19:32:38 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="verifyArticleListRedirection()[pri:4, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:32:38 IST" name="verifyArticleListRedirection" finished-at="2025-12-17T19:32:38 IST" duration-ms="128" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyArticleListRedirection -->
-        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SocialShareTest@49438269]" started-at="2025-12-16T20:39:43 IST" name="initPage" finished-at="2025-12-16T20:39:43 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:32:38 IST" name="initPage" finished-at="2025-12-17T19:32:38 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPage -->
-        <test-method signature="verifyReadMoreRedirection()[pri:4, instance:tests.SocialShareTest@49438269]" started-at="2025-12-16T20:39:43 IST" name="verifyReadMoreRedirection" finished-at="2025-12-16T20:41:21 IST" duration-ms="98058" status="PASS">
+        <test-method signature="verifyReadMoreRedirection()[pri:6, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:32:38 IST" name="verifyReadMoreRedirection" finished-at="2025-12-17T19:32:45 IST" duration-ms="6667" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyReadMoreRedirection -->
-        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SocialShareTest@49438269]" started-at="2025-12-16T20:39:43 IST" name="initPage" finished-at="2025-12-16T20:39:43 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPage -->
-        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SocialShareTest@49438269]" started-at="2025-12-16T20:41:21 IST" name="initPage" finished-at="2025-12-16T20:41:21 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPage -->
-        <test-method signature="verifyBrochureLinkRedirection()[pri:5, instance:tests.SocialShareTest@49438269]" started-at="2025-12-16T20:41:21 IST" name="verifyBrochureLinkRedirection" finished-at="2025-12-16T20:41:31 IST" duration-ms="9759" status="PASS">
+        <test-method signature="verifyBrochureLinkRedirection()[pri:7, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:32:45 IST" name="verifyBrochureLinkRedirection" finished-at="2025-12-17T19:32:48 IST" duration-ms="3079" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyBrochureLinkRedirection -->
-        <test-method signature="verifyVisitingCardLinkRedirection()[pri:6, instance:tests.SocialShareTest@49438269]" started-at="2025-12-16T20:41:31 IST" name="verifyVisitingCardLinkRedirection" finished-at="2025-12-16T20:41:49 IST" duration-ms="18495" status="PASS">
+        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:32:45 IST" name="initPage" finished-at="2025-12-17T19:32:45 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="verifyVisitingCardLinkRedirection()[pri:8, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:32:48 IST" name="verifyVisitingCardLinkRedirection" finished-at="2025-12-17T19:32:51 IST" duration-ms="2926" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyVisitingCardLinkRedirection -->
-        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SocialShareTest@49438269]" started-at="2025-12-16T20:41:31 IST" name="initPage" finished-at="2025-12-16T20:41:31 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:32:48 IST" name="initPage" finished-at="2025-12-17T19:32:48 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPage -->
-        <test-method signature="verifyWebsiteLinkRedirection()[pri:7, instance:tests.SocialShareTest@49438269]" started-at="2025-12-16T20:41:49 IST" name="verifyWebsiteLinkRedirection" finished-at="2025-12-16T20:41:58 IST" duration-ms="8510" status="PASS">
+        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:32:51 IST" name="initPage" finished-at="2025-12-17T19:32:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="verifyWebsiteLinkRedirection()[pri:9, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:32:51 IST" name="verifyWebsiteLinkRedirection" finished-at="2025-12-17T19:32:54 IST" duration-ms="2754" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyWebsiteLinkRedirection -->
-        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SocialShareTest@49438269]" started-at="2025-12-16T20:41:49 IST" name="initPage" finished-at="2025-12-16T20:41:49 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPage -->
-        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SocialShareTest@49438269]" started-at="2025-12-16T20:41:58 IST" name="initPage" finished-at="2025-12-16T20:41:58 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPage -->
-        <test-method signature="verifyLogoLinkRedirection()[pri:8, instance:tests.SocialShareTest@49438269]" started-at="2025-12-16T20:41:58 IST" name="verifyLogoLinkRedirection" finished-at="2025-12-16T20:42:02 IST" duration-ms="4185" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at org.testng.Assert.assertTrue(Assert.java:67)
-at tests.SocialShareTest.verifyLogoLinkRedirection(SocialShareTest.java:78)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="verifyLogoLinkRedirection()[pri:10, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:32:54 IST" name="verifyLogoLinkRedirection" finished-at="2025-12-17T19:32:57 IST" duration-ms="2656" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogoLinkRedirection -->
-        <test-method signature="verifyMaintenanceLinkRedirection()[pri:9, instance:tests.SocialShareTest@49438269]" started-at="2025-12-16T20:42:02 IST" name="verifyMaintenanceLinkRedirection" finished-at="2025-12-16T20:42:06 IST" duration-ms="3517" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at org.testng.Assert.assertTrue(Assert.java:67)
-at tests.SocialShareTest.verifyMaintenanceLinkRedirection(SocialShareTest.java:85)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:32:54 IST" name="initPage" finished-at="2025-12-17T19:32:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:32:57 IST" name="initPage" finished-at="2025-12-17T19:32:57 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="verifyMaintenanceLinkRedirection()[pri:11, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:32:57 IST" name="verifyMaintenanceLinkRedirection" finished-at="2025-12-17T19:32:59 IST" duration-ms="2573" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyMaintenanceLinkRedirection -->
-        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SocialShareTest@49438269]" started-at="2025-12-16T20:42:02 IST" name="initPage" finished-at="2025-12-16T20:42:02 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:32:59 IST" name="initPage" finished-at="2025-12-17T19:32:59 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPage -->
-        <test-method signature="verifyGraphicsLinkRedirection()[pri:10, instance:tests.SocialShareTest@49438269]" started-at="2025-12-16T20:42:06 IST" name="verifyGraphicsLinkRedirection" finished-at="2025-12-16T20:42:11 IST" duration-ms="5363" status="PASS">
+        <test-method signature="verifyGraphicsLinkRedirection()[pri:12, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:32:59 IST" name="verifyGraphicsLinkRedirection" finished-at="2025-12-17T19:33:02 IST" duration-ms="2559" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyGraphicsLinkRedirection -->
-        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SocialShareTest@49438269]" started-at="2025-12-16T20:42:06 IST" name="initPage" finished-at="2025-12-16T20:42:06 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPage -->
-        <test-method signature="verifyHolidayLinkRedirection()[pri:11, instance:tests.SocialShareTest@49438269]" started-at="2025-12-16T20:42:11 IST" name="verifyHolidayLinkRedirection" finished-at="2025-12-16T20:42:15 IST" duration-ms="3750" status="PASS">
+        <test-method signature="verifyHolidayLinkRedirection()[pri:13, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:33:02 IST" name="verifyHolidayLinkRedirection" finished-at="2025-12-17T19:33:04 IST" duration-ms="2441" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHolidayLinkRedirection -->
-        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SocialShareTest@49438269]" started-at="2025-12-16T20:42:11 IST" name="initPage" finished-at="2025-12-16T20:42:11 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:33:02 IST" name="initPage" finished-at="2025-12-17T19:33:02 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPage -->
-        <test-method signature="verifyHouseLinkRedirection()[pri:12, instance:tests.SocialShareTest@49438269]" started-at="2025-12-16T20:42:15 IST" name="verifyHouseLinkRedirection" finished-at="2025-12-16T20:42:21 IST" duration-ms="5964" status="PASS">
+        <test-method signature="verifyHouseLinkRedirection()[pri:14, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:33:04 IST" name="verifyHouseLinkRedirection" finished-at="2025-12-17T19:33:22 IST" duration-ms="18293" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHouseLinkRedirection -->
-        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SocialShareTest@49438269]" started-at="2025-12-16T20:42:15 IST" name="initPage" finished-at="2025-12-16T20:42:15 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:33:04 IST" name="initPage" finished-at="2025-12-17T19:33:04 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPage -->
-        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SocialShareTest@49438269]" started-at="2025-12-16T20:42:21 IST" name="initPage" finished-at="2025-12-16T20:42:21 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPage -->
-        <test-method signature="verifyDateLinkRedirection()[pri:13, instance:tests.SocialShareTest@49438269]" started-at="2025-12-16T20:42:21 IST" name="verifyDateLinkRedirection" finished-at="2025-12-16T20:42:26 IST" duration-ms="5522" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at org.testng.Assert.assertTrue(Assert.java:67)
-at tests.SocialShareTest.verifyDateLinkRedirection(SocialShareTest.java:113)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="verifyDateLinkRedirection()[pri:15, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:33:22 IST" name="verifyDateLinkRedirection" finished-at="2025-12-17T19:33:40 IST" duration-ms="17549" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDateLinkRedirection -->
-        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SocialShareTest@49438269]" started-at="2025-12-16T20:42:26 IST" name="initPage" finished-at="2025-12-16T20:42:26 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:33:22 IST" name="initPage" finished-at="2025-12-17T19:33:22 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPage -->
-        <test-method signature="verifyEmailLinkRedirection()[pri:14, instance:tests.SocialShareTest@49438269]" started-at="2025-12-16T20:42:26 IST" name="verifyEmailLinkRedirection" finished-at="2025-12-16T20:42:29 IST" duration-ms="2462" status="FAIL">
+        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:33:40 IST" name="initPage" finished-at="2025-12-17T19:33:40 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="verifyEmailLinkRedirection()[pri:16, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:33:40 IST" name="verifyEmailLinkRedirection" finished-at="2025-12-17T19:33:53 IST" duration-ms="13472" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -250,7 +138,7 @@ at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1590)
 at org.testng.Assert.assertTrue(Assert.java:57)
 at org.testng.Assert.assertTrue(Assert.java:67)
-at tests.SocialShareTest.verifyEmailLinkRedirection(SocialShareTest.java:120)
+at tests.SocialShareTest.verifyEmailLinkRedirection(SocialShareTest.java:117)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -283,11 +171,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyEmailLinkRedirection -->
-        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SocialShareTest@49438269]" started-at="2025-12-16T20:42:29 IST" name="initPage" finished-at="2025-12-16T20:42:29 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPage -->
-        <test-method signature="verifyFacebookLinkRedirection()[pri:15, instance:tests.SocialShareTest@49438269]" started-at="2025-12-16T20:42:29 IST" name="verifyFacebookLinkRedirection" finished-at="2025-12-16T20:42:31 IST" duration-ms="2343" status="FAIL">
+        <test-method signature="verifyFacebookLinkRedirection()[pri:17, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:33:53 IST" name="verifyFacebookLinkRedirection" finished-at="2025-12-17T19:34:02 IST" duration-ms="8710" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -298,7 +182,7 @@ at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1590)
 at org.testng.Assert.assertTrue(Assert.java:57)
 at org.testng.Assert.assertTrue(Assert.java:67)
-at tests.SocialShareTest.verifyFacebookLinkRedirection(SocialShareTest.java:127)
+at tests.SocialShareTest.verifyFacebookLinkRedirection(SocialShareTest.java:124)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -331,7 +215,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyFacebookLinkRedirection -->
-        <test-method signature="verifyTwitterLinkRedirection()[pri:16, instance:tests.SocialShareTest@49438269]" started-at="2025-12-16T20:42:31 IST" name="verifyTwitterLinkRedirection" finished-at="2025-12-16T20:42:34 IST" duration-ms="2754" status="FAIL">
+        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:33:53 IST" name="initPage" finished-at="2025-12-17T19:33:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="verifyTwitterLinkRedirection()[pri:18, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:34:02 IST" name="verifyTwitterLinkRedirection" finished-at="2025-12-17T19:34:11 IST" duration-ms="8736" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -342,7 +230,7 @@ at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1590)
 at org.testng.Assert.assertTrue(Assert.java:57)
 at org.testng.Assert.assertTrue(Assert.java:67)
-at tests.SocialShareTest.verifyTwitterLinkRedirection(SocialShareTest.java:134)
+at tests.SocialShareTest.verifyTwitterLinkRedirection(SocialShareTest.java:131)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -375,15 +263,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTwitterLinkRedirection -->
-        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SocialShareTest@49438269]" started-at="2025-12-16T20:42:31 IST" name="initPage" finished-at="2025-12-16T20:42:31 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:34:02 IST" name="initPage" finished-at="2025-12-17T19:34:02 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPage -->
-        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SocialShareTest@49438269]" started-at="2025-12-16T20:42:34 IST" name="initPage" finished-at="2025-12-16T20:42:34 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPage -->
-        <test-method signature="verifyPinterestLinkRedirection()[pri:17, instance:tests.SocialShareTest@49438269]" started-at="2025-12-16T20:42:34 IST" name="verifyPinterestLinkRedirection" finished-at="2025-12-16T20:42:37 IST" duration-ms="3075" status="FAIL">
+        <test-method signature="verifyPinterestLinkRedirection()[pri:19, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:34:11 IST" name="verifyPinterestLinkRedirection" finished-at="2025-12-17T19:34:20 IST" duration-ms="9041" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -394,7 +278,7 @@ at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1590)
 at org.testng.Assert.assertTrue(Assert.java:57)
 at org.testng.Assert.assertTrue(Assert.java:67)
-at tests.SocialShareTest.verifyPinterestLinkRedirection(SocialShareTest.java:141)
+at tests.SocialShareTest.verifyPinterestLinkRedirection(SocialShareTest.java:138)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -427,140 +311,31 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPinterestLinkRedirection -->
-        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SocialShareTest@49438269]" started-at="2025-12-16T20:42:37 IST" name="initPage" finished-at="2025-12-16T20:42:37 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:34:11 IST" name="initPage" finished-at="2025-12-17T19:34:11 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPage -->
-        <test-method signature="verifyTravelLinkRedirection()[pri:18, instance:tests.SocialShareTest@49438269]" started-at="2025-12-16T20:42:37 IST" name="verifyTravelLinkRedirection" finished-at="2025-12-16T20:42:41 IST" duration-ms="4331" status="PASS">
+        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:34:20 IST" name="initPage" finished-at="2025-12-17T19:34:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="verifyTravelLinkRedirection()[pri:20, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:34:20 IST" name="verifyTravelLinkRedirection" finished-at="2025-12-17T19:34:37 IST" duration-ms="17249" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTravelLinkRedirection -->
-        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SocialShareTest@49438269]" started-at="2025-12-16T20:42:41 IST" name="initPage" finished-at="2025-12-16T20:42:41 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPage -->
-        <test-method signature="verifyPensionLinkRedirection()[pri:19, instance:tests.SocialShareTest@49438269]" started-at="2025-12-16T20:42:41 IST" name="verifyPensionLinkRedirection" finished-at="2025-12-16T20:42:50 IST" duration-ms="8259" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at org.testng.Assert.assertTrue(Assert.java:67)
-at tests.SocialShareTest.verifyPensionLinkRedirection(SocialShareTest.java:155)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="verifyPensionLinkRedirection()[pri:21, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:34:37 IST" name="verifyPensionLinkRedirection" finished-at="2025-12-17T19:34:55 IST" duration-ms="18241" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPensionLinkRedirection -->
-        <test-method signature="verifyCloseButtonLinkRedirection()[pri:20, instance:tests.SocialShareTest@49438269]" started-at="2025-12-16T20:42:50 IST" name="verifyCloseButtonLinkRedirection" finished-at="2025-12-16T20:42:50 IST" duration-ms="50" status="FAIL">
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
-            <message>
-              <![CDATA[element not interactable
-  (Session info: chrome=143.0.7499.41)
-Build info: version: '4.36.0', revision: '6d115cfd87'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1339e78700c28d39c79671f5ccb38565, clickElement {id=f.7EF74E6F2196E17621DA765CB2B8A55A.d.CBBD036E9E705B6DDCF2F61D9AA10D71.e.97}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.41, chrome: {chromedriverVersion: 143.0.7499.42 (24bdc8c48a0c..., userDataDir: C:\Users\amrit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51357}, goog:processID: 16404, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51357/devtoo..., se:cdpVersion: 143.0.7499.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (1339e78700c28d39c79671f5ccb38565)] -> xpath: //*[@id="popmake-4434"]/button]
-Session ID: 1339e78700c28d39c79671f5ccb38565]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=143.0.7499.41)
-Build info: version: '4.36.0', revision: '6d115cfd87'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1339e78700c28d39c79671f5ccb38565, clickElement {id=f.7EF74E6F2196E17621DA765CB2B8A55A.d.CBBD036E9E705B6DDCF2F61D9AA10D71.e.97}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.41, chrome: {chromedriverVersion: 143.0.7499.42 (24bdc8c48a0c..., userDataDir: C:\Users\amrit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51357}, goog:processID: 16404, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51357/devtoo..., se:cdpVersion: 143.0.7499.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (1339e78700c28d39c79671f5ccb38565)] -> xpath: //*[@id="popmake-4434"]/button]
-Session ID: 1339e78700c28d39c79671f5ccb38565
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-at pages.SocialSharePage.clickCloseButtonLink(SocialSharePage.java:179)
-at tests.SocialShareTest.verifyCloseButtonLinkRedirection(SocialShareTest.java:160)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyCloseButtonLinkRedirection -->
-        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SocialShareTest@49438269]" started-at="2025-12-16T20:42:50 IST" name="initPage" finished-at="2025-12-16T20:42:50 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:34:37 IST" name="initPage" finished-at="2025-12-17T19:34:37 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPage -->
-        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:tests.SocialShareTest@49438269]" started-at="2025-12-16T20:42:50 IST" name="tearDownTest" finished-at="2025-12-16T20:42:50 IST" duration-ms="271" status="PASS">
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:34:55 IST" name="tearDownTest" finished-at="2025-12-17T19:34:56 IST" duration-ms="245" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SocialShareTest@49438269]" started-at="2025-12-16T20:42:50 IST" name="tearDown" finished-at="2025-12-16T20:42:50 IST" depends-on-methods="tests.SocialShareTest.tearDownTest" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:34:56 IST" name="tearDown" finished-at="2025-12-17T19:34:56 IST" depends-on-methods="tests.SocialShareTest.tearDownTest" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

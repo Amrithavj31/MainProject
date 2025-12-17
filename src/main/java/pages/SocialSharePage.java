@@ -16,8 +16,6 @@ public class SocialSharePage {
     private By articlesListLink=By.xpath("//*[@id='low_s']/b");
     private By closeButtonField = By.xpath("//*[@id=\"popmake-4434\"]/button");
     private By readmoreLink = By.xpath("//div[@class='entry-readmore']/a[normalize-space()='Read More']");
-
-    
     private By brochureLink = By.xpath("//article[@id='post-86']//a[text()='Brochure']");
     private By visitingCardLink = By.xpath("//*[@id=\"post-86\"]/div/footer/span[1]/a[2]");
     private By websiteLink =  By.xpath("//*[@id=\"post-86\"]/div/footer/span[1]/a[3]");
@@ -30,11 +28,10 @@ public class SocialSharePage {
     private By twitterLink = By.xpath("//*[@id=\"square-share-a2\"]/i");
     private By pinterestLink = By.xpath("//*[@id=\"square-share-a3\"]/i");
     private By emailLink = By.xpath("//*[@id=\"square-share-a4\"]/i");
-    private By dateLink = By.xpath("//*[@id=\"post-84\"]/div/header/div/span[1]/a/time");
+    private By dateLink = By.xpath("//*[@id=\"post-86\"]/div/header/div/span[1]/a/time");
     private By graphicsLink = By.xpath("//*[@id=\"post-84\"]/div/footer/span/a[2]");
     private By pensionLink = By.xpath("//*[@id=\"post-59\"]/figure/a/img");
     private By logoLink =By.xpath("//*[@id=\"post-78\"]/div/footer/span/a[3]");
-    private By closeButtonLink = By.xpath("//*[@id=\"popmake-4434\"]/button");
     
     public SocialSharePage(WebDriver driver) {
         this.driver = driver;
@@ -58,29 +55,8 @@ public class SocialSharePage {
         return driver.getCurrentUrl();
     }
 
-
-    public void closePopupIfPresent() {
-        try {
-            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-
-            WebElement closeBtn = wait.until(
-                    ExpectedConditions.elementToBeClickable(closeButtonField)
-            );
-
-            // Scroll into view
-            ((JavascriptExecutor) driver)
-                    .executeScript("arguments[0].scrollIntoView(true);", closeBtn);
-
-            // JS click (most reliable for popups)
-            ((JavascriptExecutor) driver)
-                    .executeScript("arguments[0].click();", closeBtn);
-
-        } catch (Exception e) {
-            System.out.println("Popup not present or already closed");
-        }
-    }
-
     public String clickArticlesListLinkAndGetURL() {
+    	driver.findElement(socialTabField);
         driver.findElement(articlesListLink).click();
         return driver.getTitle();
     }
@@ -158,7 +134,7 @@ public class SocialSharePage {
     
     public String clickDateLink() {
     	driver.findElement(dateLink).click();
-    	return driver.getTitle();
+    	return driver.getCurrentUrl();
     }
     
     public String clickGraphicsLink() {
@@ -176,8 +152,8 @@ public class SocialSharePage {
     	return driver.getTitle();
     }
     public String clickCloseButtonLink() {
-    	driver.findElement(closeButtonLink).click();
-    	return driver.getTitle();
+    	driver.findElement(closeButtonField).click();
+    	return driver.getCurrentUrl();
     }
  
 }

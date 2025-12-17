@@ -7,17 +7,12 @@
         <methods>
           <include name="tearDownTest"/>
           <include name="verifyEmailLinkRedirection"/>
-          <include name="verifyCloseButtonLinkRedirection"/>
-          <include name="verifyPensionLinkRedirection"/>
-          <include name="verifyLogoLinkRedirection"/>
           <include name="initPage"/>
           <include name="verifyFacebookLinkRedirection"/>
-          <include name="verifyDateLinkRedirection"/>
           <include name="verifyTwitterLinkRedirection"/>
           <include name="verifyPinterestLinkRedirection"/>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="verifyMaintenanceLinkRedirection"/>
         </methods>
       </class> <!-- tests.SocialShareTest -->
     </classes>
