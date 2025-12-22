@@ -14,7 +14,6 @@ public class DashboardPage {
     private WebDriver driver;
     private WebDriverWait wait;
     
-
     private By articlesField=By.xpath("//p[text()='The articles should show appropriate content, but in this example clicking an article shows an error page.']");
     private By sendButtonLinkField=By.xpath("//h5[text()='Send button returns an error page']");
     private By videoLinkField = By.xpath("//h5[text()='Video player doesn’t work']");

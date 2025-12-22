@@ -1,345 +1,687 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="20" passed="16" failed="4" skipped="0">
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-17T19:32:31 IST" name="Default suite" finished-at="2025-12-17T19:34:56 IST" duration-ms="145037">
+  <suite started-at="2025-12-22T21:20:06 IST" name="Default suite" finished-at="2025-12-22T21:21:15 IST" duration-ms="68235">
     <groups>
     </groups>
-    <test started-at="2025-12-17T19:32:31 IST" name="Default test" finished-at="2025-12-17T19:34:56 IST" duration-ms="145037">
-      <class name="tests.SocialShareTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:32:31 IST" name="setup" finished-at="2025-12-17T19:32:37 IST" duration-ms="6200" status="PASS">
+    <test started-at="2025-12-22T21:20:06 IST" name="Default test" finished-at="2025-12-22T21:21:15 IST" duration-ms="68235">
+      <class name="tests.SignupTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SignupTest@4116aac9]" started-at="2025-12-22T21:20:06 IST" name="setup" finished-at="2025-12-22T21:20:15 IST" duration-ms="8854" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:32:37 IST" name="initPage" finished-at="2025-12-17T19:32:37 IST" duration-ms="24" status="PASS">
+        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SignupTest@4116aac9]" started-at="2025-12-22T21:20:15 IST" name="initPage" finished-at="2025-12-22T21:20:15 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPage -->
-        <test-method signature="verifySocialTabRedirection()[pri:1, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:32:37 IST" name="verifySocialTabRedirection" finished-at="2025-12-17T19:32:37 IST" duration-ms="118" status="PASS">
+        <test-method signature="verifySearchTabRedirection()[pri:1, instance:tests.SignupTest@4116aac9]" started-at="2025-12-22T21:20:15 IST" name="verifySearchTabRedirection" finished-at="2025-12-22T21:20:15 IST" duration-ms="58" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifySocialTabRedirection -->
-        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:32:37 IST" name="initPage" finished-at="2025-12-17T19:32:37 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPage -->
-        <test-method signature="verifySocialSharePopupIsDisplayed()[pri:2, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:32:37 IST" name="verifySocialSharePopupIsDisplayed" finished-at="2025-12-17T19:32:38 IST" duration-ms="1177" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySocialSharePopupIsDisplayed -->
-        <test-method signature="verifyCloseButtonLinkRedirection()[pri:3, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:32:38 IST" name="verifyCloseButtonLinkRedirection" finished-at="2025-12-17T19:32:38 IST" duration-ms="63" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyCloseButtonLinkRedirection -->
-        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:32:38 IST" name="initPage" finished-at="2025-12-17T19:32:38 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- verifySearchTabRedirection -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SignupTest@4116aac9]" started-at="2025-12-22T21:20:15 IST" name="initPage" finished-at="2025-12-22T21:20:15 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPage -->
-        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:32:38 IST" name="initPage" finished-at="2025-12-17T19:32:38 IST" duration-ms="1" status="PASS">
+        <test-method signature="verifyPopUpLinkRedirection()[pri:2, instance:tests.SignupTest@4116aac9]" started-at="2025-12-22T21:20:15 IST" name="verifyPopUpLinkRedirection" finished-at="2025-12-22T21:20:15 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPopUpLinkRedirection -->
+        <test-method signature="verifySignUpForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean)[pri:2, instance:tests.SignupTest@4116aac9]" started-at="2025-12-22T21:20:15 IST" name="verifySignUpForm" data-provider="signUpData" finished-at="2025-12-22T21:20:22 IST" duration-ms="6869" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpForm -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SignupTest@4116aac9]" started-at="2025-12-22T21:20:15 IST" name="initPage" finished-at="2025-12-22T21:20:15 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPage -->
-        <test-method signature="verifyArticleListRedirection()[pri:4, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:32:38 IST" name="verifyArticleListRedirection" finished-at="2025-12-17T19:32:38 IST" duration-ms="128" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyArticleListRedirection -->
-        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:32:38 IST" name="initPage" finished-at="2025-12-17T19:32:38 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SignupTest@4116aac9]" started-at="2025-12-22T21:20:22 IST" name="initPage" finished-at="2025-12-22T21:20:22 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPage -->
-        <test-method signature="verifyReadMoreRedirection()[pri:6, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:32:38 IST" name="verifyReadMoreRedirection" finished-at="2025-12-17T19:32:45 IST" duration-ms="6667" status="PASS">
+        <test-method signature="verifySignUpForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean)[pri:2, instance:tests.SignupTest@4116aac9]" started-at="2025-12-22T21:20:22 IST" name="verifySignUpForm" data-provider="signUpData" finished-at="2025-12-22T21:20:27 IST" duration-ms="5100" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[User]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test@test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test@test.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[pass@123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[pass@123]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyReadMoreRedirection -->
-        <test-method signature="verifyBrochureLinkRedirection()[pri:7, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:32:45 IST" name="verifyBrochureLinkRedirection" finished-at="2025-12-17T19:32:48 IST" duration-ms="3079" status="PASS">
+        </test-method> <!-- verifySignUpForm -->
+        <test-method signature="verifySignUpForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean)[pri:2, instance:tests.SignupTest@4116aac9]" started-at="2025-12-22T21:20:27 IST" name="verifySignUpForm" data-provider="signUpData" finished-at="2025-12-22T21:20:31 IST" duration-ms="3903" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test@test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test@test.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[pass@123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[pass@123]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyBrochureLinkRedirection -->
-        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:32:45 IST" name="initPage" finished-at="2025-12-17T19:32:45 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPage -->
-        <test-method signature="verifyVisitingCardLinkRedirection()[pri:8, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:32:48 IST" name="verifyVisitingCardLinkRedirection" finished-at="2025-12-17T19:32:51 IST" duration-ms="2926" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyVisitingCardLinkRedirection -->
-        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:32:48 IST" name="initPage" finished-at="2025-12-17T19:32:48 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPage -->
-        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:32:51 IST" name="initPage" finished-at="2025-12-17T19:32:51 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPage -->
-        <test-method signature="verifyWebsiteLinkRedirection()[pri:9, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:32:51 IST" name="verifyWebsiteLinkRedirection" finished-at="2025-12-17T19:32:54 IST" duration-ms="2754" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyWebsiteLinkRedirection -->
-        <test-method signature="verifyLogoLinkRedirection()[pri:10, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:32:54 IST" name="verifyLogoLinkRedirection" finished-at="2025-12-17T19:32:57 IST" duration-ms="2656" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLogoLinkRedirection -->
-        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:32:54 IST" name="initPage" finished-at="2025-12-17T19:32:54 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPage -->
-        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:32:57 IST" name="initPage" finished-at="2025-12-17T19:32:57 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPage -->
-        <test-method signature="verifyMaintenanceLinkRedirection()[pri:11, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:32:57 IST" name="verifyMaintenanceLinkRedirection" finished-at="2025-12-17T19:32:59 IST" duration-ms="2573" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyMaintenanceLinkRedirection -->
-        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:32:59 IST" name="initPage" finished-at="2025-12-17T19:32:59 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPage -->
-        <test-method signature="verifyGraphicsLinkRedirection()[pri:12, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:32:59 IST" name="verifyGraphicsLinkRedirection" finished-at="2025-12-17T19:33:02 IST" duration-ms="2559" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyGraphicsLinkRedirection -->
-        <test-method signature="verifyHolidayLinkRedirection()[pri:13, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:33:02 IST" name="verifyHolidayLinkRedirection" finished-at="2025-12-17T19:33:04 IST" duration-ms="2441" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyHolidayLinkRedirection -->
-        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:33:02 IST" name="initPage" finished-at="2025-12-17T19:33:02 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPage -->
-        <test-method signature="verifyHouseLinkRedirection()[pri:14, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:33:04 IST" name="verifyHouseLinkRedirection" finished-at="2025-12-17T19:33:22 IST" duration-ms="18293" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyHouseLinkRedirection -->
-        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:33:04 IST" name="initPage" finished-at="2025-12-17T19:33:04 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPage -->
-        <test-method signature="verifyDateLinkRedirection()[pri:15, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:33:22 IST" name="verifyDateLinkRedirection" finished-at="2025-12-17T19:33:40 IST" duration-ms="17549" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyDateLinkRedirection -->
-        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:33:22 IST" name="initPage" finished-at="2025-12-17T19:33:22 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPage -->
-        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:33:40 IST" name="initPage" finished-at="2025-12-17T19:33:40 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPage -->
-        <test-method signature="verifyEmailLinkRedirection()[pri:16, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:33:40 IST" name="verifyEmailLinkRedirection" finished-at="2025-12-17T19:33:53 IST" duration-ms="13472" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at org.testng.Assert.assertTrue(Assert.java:67)
-at tests.SocialShareTest.verifyEmailLinkRedirection(SocialShareTest.java:117)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyEmailLinkRedirection -->
-        <test-method signature="verifyFacebookLinkRedirection()[pri:17, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:33:53 IST" name="verifyFacebookLinkRedirection" finished-at="2025-12-17T19:34:02 IST" duration-ms="8710" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at org.testng.Assert.assertTrue(Assert.java:67)
-at tests.SocialShareTest.verifyFacebookLinkRedirection(SocialShareTest.java:124)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyFacebookLinkRedirection -->
-        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:33:53 IST" name="initPage" finished-at="2025-12-17T19:33:53 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- verifySignUpForm -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SignupTest@4116aac9]" started-at="2025-12-22T21:20:27 IST" name="initPage" finished-at="2025-12-22T21:20:27 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPage -->
-        <test-method signature="verifyTwitterLinkRedirection()[pri:18, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:34:02 IST" name="verifyTwitterLinkRedirection" finished-at="2025-12-17T19:34:11 IST" duration-ms="8736" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at org.testng.Assert.assertTrue(Assert.java:67)
-at tests.SocialShareTest.verifyTwitterLinkRedirection(SocialShareTest.java:131)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="verifySignUpForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean)[pri:2, instance:tests.SignupTest@4116aac9]" started-at="2025-12-22T21:20:31 IST" name="verifySignUpForm" data-provider="signUpData" finished-at="2025-12-22T21:20:34 IST" duration-ms="3167" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[User]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[pass@123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[pass@123]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyTwitterLinkRedirection -->
-        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:34:02 IST" name="initPage" finished-at="2025-12-17T19:34:02 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPage -->
-        <test-method signature="verifyPinterestLinkRedirection()[pri:19, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:34:11 IST" name="verifyPinterestLinkRedirection" finished-at="2025-12-17T19:34:20 IST" duration-ms="9041" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at org.testng.Assert.assertTrue(Assert.java:67)
-at tests.SocialShareTest.verifyPinterestLinkRedirection(SocialShareTest.java:138)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyPinterestLinkRedirection -->
-        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:34:11 IST" name="initPage" finished-at="2025-12-17T19:34:11 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- verifySignUpForm -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SignupTest@4116aac9]" started-at="2025-12-22T21:20:31 IST" name="initPage" finished-at="2025-12-22T21:20:31 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPage -->
-        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:34:20 IST" name="initPage" finished-at="2025-12-17T19:34:20 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SignupTest@4116aac9]" started-at="2025-12-22T21:20:34 IST" name="initPage" finished-at="2025-12-22T21:20:34 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPage -->
-        <test-method signature="verifyTravelLinkRedirection()[pri:20, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:34:20 IST" name="verifyTravelLinkRedirection" finished-at="2025-12-17T19:34:37 IST" duration-ms="17249" status="PASS">
+        <test-method signature="verifySignUpForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean)[pri:2, instance:tests.SignupTest@4116aac9]" started-at="2025-12-22T21:20:35 IST" name="verifySignUpForm" data-provider="signUpData" finished-at="2025-12-22T21:20:38 IST" duration-ms="3882" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[User]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test@test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[pass@123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[pass@123]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyTravelLinkRedirection -->
-        <test-method signature="verifyPensionLinkRedirection()[pri:21, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:34:37 IST" name="verifyPensionLinkRedirection" finished-at="2025-12-17T19:34:55 IST" duration-ms="18241" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyPensionLinkRedirection -->
-        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:34:37 IST" name="initPage" finished-at="2025-12-17T19:34:37 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- verifySignUpForm -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SignupTest@4116aac9]" started-at="2025-12-22T21:20:38 IST" name="initPage" finished-at="2025-12-22T21:20:38 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPage -->
-        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:34:55 IST" name="tearDownTest" finished-at="2025-12-17T19:34:56 IST" duration-ms="245" status="PASS">
+        <test-method signature="verifySignUpForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean)[pri:2, instance:tests.SignupTest@4116aac9]" started-at="2025-12-22T21:20:38 IST" name="verifySignUpForm" data-provider="signUpData" finished-at="2025-12-22T21:20:42 IST" duration-ms="3943" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[User]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test@test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test@test.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[pass@123]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDownTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SocialShareTest@367ffa75]" started-at="2025-12-17T19:34:56 IST" name="tearDown" finished-at="2025-12-17T19:34:56 IST" depends-on-methods="tests.SocialShareTest.tearDownTest" duration-ms="0" status="PASS">
+        </test-method> <!-- verifySignUpForm -->
+        <test-method signature="verifySignUpForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean)[pri:2, instance:tests.SignupTest@4116aac9]" started-at="2025-12-22T21:20:42 IST" name="verifySignUpForm" data-provider="signUpData" finished-at="2025-12-22T21:20:48 IST" duration-ms="5646" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[User]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test@test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test@test.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[pass@123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpForm -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SignupTest@4116aac9]" started-at="2025-12-22T21:20:42 IST" name="initPage" finished-at="2025-12-22T21:20:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SignupTest@4116aac9]" started-at="2025-12-22T21:20:48 IST" name="initPage" finished-at="2025-12-22T21:20:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="verifySignUpForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean)[pri:2, instance:tests.SignupTest@4116aac9]" started-at="2025-12-22T21:20:48 IST" name="verifySignUpForm" data-provider="signUpData" finished-at="2025-12-22T21:20:51 IST" duration-ms="3141" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[User]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test@test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test123@test.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[pass@123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[pass@123]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpForm -->
+        <test-method signature="verifySignUpForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean)[pri:2, instance:tests.SignupTest@4116aac9]" started-at="2025-12-22T21:20:51 IST" name="verifySignUpForm" data-provider="signUpData" finished-at="2025-12-22T21:20:55 IST" duration-ms="3889" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[User]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test@test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test@test.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[pass@123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[pass123@123]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpForm -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SignupTest@4116aac9]" started-at="2025-12-22T21:20:51 IST" name="initPage" finished-at="2025-12-22T21:20:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="verifySignUpForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean)[pri:2, instance:tests.SignupTest@4116aac9]" started-at="2025-12-22T21:20:55 IST" name="verifySignUpForm" data-provider="signUpData" finished-at="2025-12-22T21:20:59 IST" duration-ms="3728" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[#^$^%$]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test@test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test@test.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[pass@123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[pass@123]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpForm -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SignupTest@4116aac9]" started-at="2025-12-22T21:20:55 IST" name="initPage" finished-at="2025-12-22T21:20:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="verifySignUpForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean)[pri:2, instance:tests.SignupTest@4116aac9]" started-at="2025-12-22T21:20:59 IST" name="verifySignUpForm" data-provider="signUpData" finished-at="2025-12-22T21:21:03 IST" duration-ms="4531" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[User]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test@test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test@test.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[pass@123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[pass@123]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpForm -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SignupTest@4116aac9]" started-at="2025-12-22T21:20:59 IST" name="initPage" finished-at="2025-12-22T21:20:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="verifySignUpForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean)[pri:2, instance:tests.SignupTest@4116aac9]" started-at="2025-12-22T21:21:03 IST" name="verifySignUpForm" data-provider="signUpData" finished-at="2025-12-22T21:21:08 IST" duration-ms="4348" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[User]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[pass@123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[pass@123]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpForm -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SignupTest@4116aac9]" started-at="2025-12-22T21:21:03 IST" name="initPage" finished-at="2025-12-22T21:21:03 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:tests.SignupTest@4116aac9]" started-at="2025-12-22T21:21:08 IST" name="initPage" finished-at="2025-12-22T21:21:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="verifySignUpForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean)[pri:2, instance:tests.SignupTest@4116aac9]" started-at="2025-12-22T21:21:08 IST" name="verifySignUpForm" data-provider="signUpData" finished-at="2025-12-22T21:21:14 IST" duration-ms="6617" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bob]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[User]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test6f@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test6f@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[bob.bob@123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[bob.bob@123]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SignupTest@4116aac9]" started-at="2025-12-22T21:21:14 IST" name="tearDown" finished-at="2025-12-22T21:21:15 IST" duration-ms="306" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- tests.SocialShareTest -->
+      </class> <!-- tests.SignupTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
