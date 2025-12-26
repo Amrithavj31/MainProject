@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-passed">Default suite</span>
+              <span class="suite-name border-failed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\amrit\AppData\Local\Temp\testng-eclipse--1478902770\testng-customsuite.xml</span>
+                    <span>C:\Users\amrit\AppData\Local\Temp\testng-eclipse-1470644013\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">15 methods,   15 passed</span>
+                    <span class="method-stats">24 methods, 2 failed,   22 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.ProductDetailsTest" class="method navigator-link" hash-for-method="verifyDNKRedirection">verifyDNKRedirection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.ProductDetailsTest" class="method navigator-link" hash-for-method="verifySignUpForm(Test, User, test@test.com, https://academybugs.com/store, valid, true)">verifySignUpForm(Test, User, test@test.com, https://academybugs.com/store, valid, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,77 +122,112 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="tests.SignupTest" class="method navigator-link" hash-for-method="verifyPopUpLinkRedirection">verifyPopUpLinkRedirection</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="tests.ProductDetailsTest" class="method navigator-link" hash-for-method="verifyAllItemsLinkRedirection">verifyAllItemsLinkRedirection</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="tests.SignupTest" class="method navigator-link" hash-for-method="verifySearchTabRedirection">verifySearchTabRedirection</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="tests.ProductDetailsTest" class="method navigator-link" hash-for-method="verifyBraceletsRedirection">verifyBraceletsRedirection</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="tests.SignupTest" class="method navigator-link" hash-for-method="verifySignUpForm(, , , , , , invalid, false)">verifySignUpForm(, , , , , , invalid, false)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="tests.ProductDetailsTest" class="method navigator-link" hash-for-method="verifyCurrencyDropdownRedirection">verifyCurrencyDropdownRedirection</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="tests.SignupTest" class="method navigator-link" hash-for-method="verifySignUpForm(Test, User, , , pass@123, pass@123, invalid, false)">verifySignUpForm(Test, User, , , pass@123, pass@123, invalid, false)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="tests.ProductDetailsTest" class="method navigator-link" hash-for-method="verifyEmailIconRedirection">verifyEmailIconRedirection</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="tests.SignupTest" class="method navigator-link" hash-for-method="verifySignUpForm(, User, test@test.com, test@test.com, pass@123, pass@123, invalid, false)">verifySignUpForm(, User, test@test.com, test@test.com, pass@123, pass@123, invalid, false)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="tests.ProductDetailsTest" class="method navigator-link" hash-for-method="verifyFacebookIconRedirection">verifyFacebookIconRedirection</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="tests.SignupTest" class="method navigator-link" hash-for-method="verifySignUpForm(Test, User, test@test.com, , pass@123, pass@123, invalid, false)">verifySignUpForm(Test, User, test@test.com, , pass@123, pass@123, invalid, false)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="tests.ProductDetailsTest" class="method navigator-link" hash-for-method="verifyFashionTypeRedirection">verifyFashionTypeRedirection</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="tests.SignupTest" class="method navigator-link" hash-for-method="verifySignUpForm(Test, User, test@test.com, test@test.com, , pass@123, invalid, false)">verifySignUpForm(Test, User, test@test.com, test@test.com, , pass@123, invalid, false)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="tests.ProductDetailsTest" class="method navigator-link" hash-for-method="verifyHandBagRedirection">verifyHandBagRedirection</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="tests.SignupTest" class="method navigator-link" hash-for-method="verifySignUpForm(Test, User, test@test.com, test@test.com, pass@123, pass123@123, invalid, false)">verifySignUpForm(Test, User, test@test.com, test@test.com, pass@123, pass123@123, invalid, false)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="tests.ProductDetailsTest" class="method navigator-link" hash-for-method="verifyLinkedInIconRedirection">verifyLinkedInIconRedirection</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="tests.SignupTest" class="method navigator-link" hash-for-method="verifySignUpForm(Bob, User, test6f@gmail.com, test6f@gmail.com, bob.bob@123, bob.bob@123, valid, true)">verifySignUpForm(Bob, User, test6f@gmail.com, test6f@gmail.com, bob.bob@123, bob.bob@123, valid, true)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="tests.ProductDetailsTest" class="method navigator-link" hash-for-method="verifyMySpaceIconRedirection">verifyMySpaceIconRedirection</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="tests.SignupTest" class="method navigator-link" hash-for-method="verifySignUpForm(, #^$^%$, test@test.com, test@test.com, pass@123, pass@123, invalid, false)">verifySignUpForm(, #^$^%$, test@test.com, test@test.com, pass@123, pass@123, invalid, false)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="tests.ProductDetailsTest" class="method navigator-link" hash-for-method="verifyPinterestIconRedirection">verifyPinterestIconRedirection</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="tests.SignupTest" class="method navigator-link" hash-for-method="verifySignUpForm(Test, User, test@test.com, test@test.com, pass@123, , invalid, false)">verifySignUpForm(Test, User, test@test.com, test@test.com, pass@123, , invalid, false)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="tests.ProductDetailsTest" class="method navigator-link" hash-for-method="verifyProductDetailsPageRedirection">verifyProductDetailsPageRedirection</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="tests.SignupTest" class="method navigator-link" hash-for-method="verifySignUpForm(Test, User, test, test, pass@123, pass@123, invalid, false)">verifySignUpForm(Test, User, test, test, pass@123, pass@123, invalid, false)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="tests.ProductDetailsTest" class="method navigator-link" hash-for-method="verifyProductSearchRedirection">verifyProductSearchRedirection</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="tests.SignupTest" class="method navigator-link" hash-for-method="verifySignUpForm(Test, , test@test.com, test@test.com, pass@123, pass@123, invalid, false)">verifySignUpForm(Test, , test@test.com, test@test.com, pass@123, pass@123, invalid, false)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="tests.ProductDetailsTest" class="method navigator-link" hash-for-method="verifySearchButtonRedirection">verifySearchButtonRedirection</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="tests.SignupTest" class="method navigator-link" hash-for-method="verifySignUpForm(1234, User, test@test.com, test@test.com, pass@123, pass@123, invalid, false)">verifySignUpForm(1234, User, test@test.com, test@test.com, pass@123, pass@123, invalid, false)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="tests.ProductDetailsTest" class="method navigator-link" hash-for-method="verifySignInLinkRedirection">verifySignInLinkRedirection</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="tests.SignupTest" class="method navigator-link" hash-for-method="verifySignUpForm(Test, User, test@test.com, test123@test.com, pass@123, pass@123, invalid, false)">verifySignUpForm(Test, User, test@test.com, test123@test.com, pass@123, pass@123, invalid, false)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="tests.ProductDetailsTest" class="method navigator-link" hash-for-method="verifySignUpForm(, , , , invalid, false)">verifySignUpForm(, , , , invalid, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.ProductDetailsTest" class="method navigator-link" hash-for-method="verifySignUpForm(, Test, testbv@gmail.com, https://academybugs.com/store, invalid, false)">verifySignUpForm(, Test, testbv@gmail.com, https://academybugs.com/store, invalid, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.ProductDetailsTest" class="method navigator-link" hash-for-method="verifySignUpForm(Test, User, testbv@gmail.com, , invalid, false)">verifySignUpForm(Test, User, testbv@gmail.com, , invalid, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.ProductDetailsTest" class="method navigator-link" hash-for-method="verifySignUpForm(Test, User, , https://academybugs.com/store, invalid, false)">verifySignUpForm(Test, User, , https://academybugs.com/store, invalid, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.ProductDetailsTest" class="method navigator-link" hash-for-method="verifySignUpForm(Test, , testbv@gmail.com, https://academybugs.com/store, invalid, false)">verifySignUpForm(Test, , testbv@gmail.com, https://academybugs.com/store, invalid, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.ProductDetailsTest" class="method navigator-link" hash-for-method="verifySignUpLinkRedirection">verifySignUpLinkRedirection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.ProductDetailsTest" class="method navigator-link" hash-for-method="verifyTwitterIconRedirection">verifyTwitterIconRedirection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.ProductDetailsTest" class="method navigator-link" hash-for-method="verifyWomensPageRedirection">verifyWomensPageRedirection</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -188,128 +242,278 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
+          <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">tests.SignupTest</span>
+              <img src="failed.png"/>
+              <span class="class-name">tests.ProductDetailsTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyPopUpLinkRedirection">
-                  </a> <!-- verifyPopUpLinkRedirection -->
-                  <span class="method-name">verifyPopUpLinkRedirection</span>
+                  <a name="verifyDNKRedirection">
+                  </a> <!-- verifyDNKRedirection -->
+                  <span class="method-name">verifyDNKRedirection</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;a[href=&apos;https://academybugs.com/stored/extra/dnk/&apos;]&quot;}
+  (Session info: chrome=143.0.7499.170)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.36.0&apos;, revision: &apos;6d115cfd87&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [97a215019fde7a20564ffb49d2d38ac0, findElement {using=css selector, value=a[href=&apos;https://academybugs.com/stored/extra/dnk/&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:\Users\amrit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56728}, goog:processID: 9424, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56728/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 97a215019fde7a20564ffb49d2d38ac0
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at pages.ProductDetailsPage.clickDNKLink(ProductDetailsPage.java:182)
+	at tests.ProductDetailsTest.verifyDNKRedirection(ProductDetailsTest.java:98)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifySearchTabRedirection">
-                  </a> <!-- verifySearchTabRedirection -->
-                  <span class="method-name">verifySearchTabRedirection</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifySignUpForm(, , , , , , invalid, false)">
-                  </a> <!-- verifySignUpForm(, , , , , , invalid, false) -->
+                  <a name="verifySignUpForm(Test, User, test@test.com, https://academybugs.com/store, valid, true)">
+                  </a> <!-- verifySignUpForm(Test, User, test@test.com, https://academybugs.com/store, valid, true) -->
                   <span class="method-name">verifySignUpForm</span>
-                  <span class="parameters">(,,,,,,invalid,false)</span>
+                  <span class="parameters">(Test,User,test@test.com,https://academybugs.com/store,valid,true)</span>
+                  <div class="stack-trace">java.lang.AssertionError: User was NOT redirected to comment after valid leaving reply expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at tests.ProductDetailsTest.verifySignUpForm(ProductDetailsTest.java:127)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.ProductDetailsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAllItemsLinkRedirection">
+                  </a> <!-- verifyAllItemsLinkRedirection -->
+                  <span class="method-name">verifyAllItemsLinkRedirection</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifySignUpForm(Test, User, , , pass@123, pass@123, invalid, false)">
-                  </a> <!-- verifySignUpForm(Test, User, , , pass@123, pass@123, invalid, false) -->
-                  <span class="method-name">verifySignUpForm</span>
-                  <span class="parameters">(Test,User,,,pass@123,pass@123,invalid,false)</span>
+                  <a name="verifyBraceletsRedirection">
+                  </a> <!-- verifyBraceletsRedirection -->
+                  <span class="method-name">verifyBraceletsRedirection</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifySignUpForm(, User, test@test.com, test@test.com, pass@123, pass@123, invalid, false)">
-                  </a> <!-- verifySignUpForm(, User, test@test.com, test@test.com, pass@123, pass@123, invalid, false) -->
-                  <span class="method-name">verifySignUpForm</span>
-                  <span class="parameters">(,User,test@test.com,test@test.com,pass@123,pass@123,invalid,false)</span>
+                  <a name="verifyCurrencyDropdownRedirection">
+                  </a> <!-- verifyCurrencyDropdownRedirection -->
+                  <span class="method-name">verifyCurrencyDropdownRedirection</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifySignUpForm(Test, User, test@test.com, , pass@123, pass@123, invalid, false)">
-                  </a> <!-- verifySignUpForm(Test, User, test@test.com, , pass@123, pass@123, invalid, false) -->
-                  <span class="method-name">verifySignUpForm</span>
-                  <span class="parameters">(Test,User,test@test.com,,pass@123,pass@123,invalid,false)</span>
+                  <a name="verifyEmailIconRedirection">
+                  </a> <!-- verifyEmailIconRedirection -->
+                  <span class="method-name">verifyEmailIconRedirection</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifySignUpForm(Test, User, test@test.com, test@test.com, , pass@123, invalid, false)">
-                  </a> <!-- verifySignUpForm(Test, User, test@test.com, test@test.com, , pass@123, invalid, false) -->
-                  <span class="method-name">verifySignUpForm</span>
-                  <span class="parameters">(Test,User,test@test.com,test@test.com,,pass@123,invalid,false)</span>
+                  <a name="verifyFacebookIconRedirection">
+                  </a> <!-- verifyFacebookIconRedirection -->
+                  <span class="method-name">verifyFacebookIconRedirection</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifySignUpForm(Test, User, test@test.com, test@test.com, pass@123, pass123@123, invalid, false)">
-                  </a> <!-- verifySignUpForm(Test, User, test@test.com, test@test.com, pass@123, pass123@123, invalid, false) -->
-                  <span class="method-name">verifySignUpForm</span>
-                  <span class="parameters">(Test,User,test@test.com,test@test.com,pass@123,pass123@123,invalid,false)</span>
+                  <a name="verifyFashionTypeRedirection">
+                  </a> <!-- verifyFashionTypeRedirection -->
+                  <span class="method-name">verifyFashionTypeRedirection</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifySignUpForm(Bob, User, test6f@gmail.com, test6f@gmail.com, bob.bob@123, bob.bob@123, valid, true)">
-                  </a> <!-- verifySignUpForm(Bob, User, test6f@gmail.com, test6f@gmail.com, bob.bob@123, bob.bob@123, valid, true) -->
-                  <span class="method-name">verifySignUpForm</span>
-                  <span class="parameters">(Bob,User,test6f@gmail.com,test6f@gmail.com,bob.bob@123,bob.bob@123,valid,true)</span>
+                  <a name="verifyHandBagRedirection">
+                  </a> <!-- verifyHandBagRedirection -->
+                  <span class="method-name">verifyHandBagRedirection</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifySignUpForm(, #^$^%$, test@test.com, test@test.com, pass@123, pass@123, invalid, false)">
-                  </a> <!-- verifySignUpForm(, #^$^%$, test@test.com, test@test.com, pass@123, pass@123, invalid, false) -->
-                  <span class="method-name">verifySignUpForm</span>
-                  <span class="parameters">(,#^$^%$,test@test.com,test@test.com,pass@123,pass@123,invalid,false)</span>
+                  <a name="verifyLinkedInIconRedirection">
+                  </a> <!-- verifyLinkedInIconRedirection -->
+                  <span class="method-name">verifyLinkedInIconRedirection</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifySignUpForm(Test, User, test@test.com, test@test.com, pass@123, , invalid, false)">
-                  </a> <!-- verifySignUpForm(Test, User, test@test.com, test@test.com, pass@123, , invalid, false) -->
-                  <span class="method-name">verifySignUpForm</span>
-                  <span class="parameters">(Test,User,test@test.com,test@test.com,pass@123,,invalid,false)</span>
+                  <a name="verifyMySpaceIconRedirection">
+                  </a> <!-- verifyMySpaceIconRedirection -->
+                  <span class="method-name">verifyMySpaceIconRedirection</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifySignUpForm(Test, User, test, test, pass@123, pass@123, invalid, false)">
-                  </a> <!-- verifySignUpForm(Test, User, test, test, pass@123, pass@123, invalid, false) -->
-                  <span class="method-name">verifySignUpForm</span>
-                  <span class="parameters">(Test,User,test,test,pass@123,pass@123,invalid,false)</span>
+                  <a name="verifyPinterestIconRedirection">
+                  </a> <!-- verifyPinterestIconRedirection -->
+                  <span class="method-name">verifyPinterestIconRedirection</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifySignUpForm(Test, , test@test.com, test@test.com, pass@123, pass@123, invalid, false)">
-                  </a> <!-- verifySignUpForm(Test, , test@test.com, test@test.com, pass@123, pass@123, invalid, false) -->
-                  <span class="method-name">verifySignUpForm</span>
-                  <span class="parameters">(Test,,test@test.com,test@test.com,pass@123,pass@123,invalid,false)</span>
+                  <a name="verifyProductDetailsPageRedirection">
+                  </a> <!-- verifyProductDetailsPageRedirection -->
+                  <span class="method-name">verifyProductDetailsPageRedirection</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifySignUpForm(1234, User, test@test.com, test@test.com, pass@123, pass@123, invalid, false)">
-                  </a> <!-- verifySignUpForm(1234, User, test@test.com, test@test.com, pass@123, pass@123, invalid, false) -->
-                  <span class="method-name">verifySignUpForm</span>
-                  <span class="parameters">(1234,User,test@test.com,test@test.com,pass@123,pass@123,invalid,false)</span>
+                  <a name="verifyProductSearchRedirection">
+                  </a> <!-- verifyProductSearchRedirection -->
+                  <span class="method-name">verifyProductSearchRedirection</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifySignUpForm(Test, User, test@test.com, test123@test.com, pass@123, pass@123, invalid, false)">
-                  </a> <!-- verifySignUpForm(Test, User, test@test.com, test123@test.com, pass@123, pass@123, invalid, false) -->
+                  <a name="verifySearchButtonRedirection">
+                  </a> <!-- verifySearchButtonRedirection -->
+                  <span class="method-name">verifySearchButtonRedirection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySignInLinkRedirection">
+                  </a> <!-- verifySignInLinkRedirection -->
+                  <span class="method-name">verifySignInLinkRedirection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySignUpForm(, , , , invalid, false)">
+                  </a> <!-- verifySignUpForm(, , , , invalid, false) -->
                   <span class="method-name">verifySignUpForm</span>
-                  <span class="parameters">(Test,User,test@test.com,test123@test.com,pass@123,pass@123,invalid,false)</span>
+                  <span class="parameters">(,,,,invalid,false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySignUpForm(, Test, testbv@gmail.com, https://academybugs.com/store, invalid, false)">
+                  </a> <!-- verifySignUpForm(, Test, testbv@gmail.com, https://academybugs.com/store, invalid, false) -->
+                  <span class="method-name">verifySignUpForm</span>
+                  <span class="parameters">(,Test,testbv@gmail.com,https://academybugs.com/store,invalid,false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySignUpForm(Test, User, testbv@gmail.com, , invalid, false)">
+                  </a> <!-- verifySignUpForm(Test, User, testbv@gmail.com, , invalid, false) -->
+                  <span class="method-name">verifySignUpForm</span>
+                  <span class="parameters">(Test,User,testbv@gmail.com,,invalid,false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySignUpForm(Test, User, , https://academybugs.com/store, invalid, false)">
+                  </a> <!-- verifySignUpForm(Test, User, , https://academybugs.com/store, invalid, false) -->
+                  <span class="method-name">verifySignUpForm</span>
+                  <span class="parameters">(Test,User,,https://academybugs.com/store,invalid,false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySignUpForm(Test, , testbv@gmail.com, https://academybugs.com/store, invalid, false)">
+                  </a> <!-- verifySignUpForm(Test, , testbv@gmail.com, https://academybugs.com/store, invalid, false) -->
+                  <span class="method-name">verifySignUpForm</span>
+                  <span class="parameters">(Test,,testbv@gmail.com,https://academybugs.com/store,invalid,false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySignUpLinkRedirection">
+                  </a> <!-- verifySignUpLinkRedirection -->
+                  <span class="method-name">verifySignUpLinkRedirection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTwitterIconRedirection">
+                  </a> <!-- verifyTwitterIconRedirection -->
+                  <span class="method-name">verifyTwitterIconRedirection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyWomensPageRedirection">
+                  </a> <!-- verifyWomensPageRedirection -->
+                  <span class="method-name">verifyWomensPageRedirection</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -317,7 +521,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\amrit\AppData\Local\Temp\testng-eclipse--1478902770\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\amrit\AppData\Local\Temp\testng-eclipse-1470644013\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -326,7 +530,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;tests.SignupTest&quot;/&gt;
+      &lt;class name=&quot;tests.ProductDetailsTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -366,72 +570,108 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(15);
+data.addRows(24);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifySignUpForm')
-data.setCell(0, 2, 'tests.SignupTest')
-data.setCell(0, 3, 6869);
+data.setCell(0, 1, 'verifyProductDetailsPageRedirection')
+data.setCell(0, 2, 'tests.ProductDetailsTest')
+data.setCell(0, 3, 19374);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifySignUpForm')
-data.setCell(1, 2, 'tests.SignupTest')
-data.setCell(1, 3, 6617);
+data.setCell(1, 1, 'verifyWomensPageRedirection')
+data.setCell(1, 2, 'tests.ProductDetailsTest')
+data.setCell(1, 3, 9062);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifySignUpForm')
-data.setCell(2, 2, 'tests.SignupTest')
-data.setCell(2, 3, 5646);
+data.setCell(2, 1, 'verifyLinkedInIconRedirection')
+data.setCell(2, 2, 'tests.ProductDetailsTest')
+data.setCell(2, 3, 7404);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'verifySignUpForm')
-data.setCell(3, 2, 'tests.SignupTest')
-data.setCell(3, 3, 5100);
+data.setCell(3, 1, 'verifyPinterestIconRedirection')
+data.setCell(3, 2, 'tests.ProductDetailsTest')
+data.setCell(3, 3, 7312);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'verifySignUpForm')
-data.setCell(4, 2, 'tests.SignupTest')
-data.setCell(4, 3, 4531);
+data.setCell(4, 1, 'verifyAllItemsLinkRedirection')
+data.setCell(4, 2, 'tests.ProductDetailsTest')
+data.setCell(4, 3, 6745);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'verifySignUpForm')
-data.setCell(5, 2, 'tests.SignupTest')
-data.setCell(5, 3, 4348);
+data.setCell(5, 1, 'verifyFacebookIconRedirection')
+data.setCell(5, 2, 'tests.ProductDetailsTest')
+data.setCell(5, 3, 4687);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'verifySignUpForm')
-data.setCell(6, 2, 'tests.SignupTest')
-data.setCell(6, 3, 3943);
+data.setCell(6, 1, 'verifyBraceletsRedirection')
+data.setCell(6, 2, 'tests.ProductDetailsTest')
+data.setCell(6, 3, 4058);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'verifySignUpForm')
-data.setCell(7, 2, 'tests.SignupTest')
-data.setCell(7, 3, 3903);
+data.setCell(7, 1, 'verifyHandBagRedirection')
+data.setCell(7, 2, 'tests.ProductDetailsTest')
+data.setCell(7, 3, 4027);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'verifySignUpForm')
-data.setCell(8, 2, 'tests.SignupTest')
-data.setCell(8, 3, 3889);
+data.setCell(8, 1, 'verifyTwitterIconRedirection')
+data.setCell(8, 2, 'tests.ProductDetailsTest')
+data.setCell(8, 3, 3541);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'verifySignUpForm')
-data.setCell(9, 2, 'tests.SignupTest')
-data.setCell(9, 3, 3882);
+data.setCell(9, 1, 'verifyMySpaceIconRedirection')
+data.setCell(9, 2, 'tests.ProductDetailsTest')
+data.setCell(9, 3, 3344);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'verifySignUpForm')
-data.setCell(10, 2, 'tests.SignupTest')
-data.setCell(10, 3, 3728);
+data.setCell(10, 1, 'verifyEmailIconRedirection')
+data.setCell(10, 2, 'tests.ProductDetailsTest')
+data.setCell(10, 3, 1691);
 data.setCell(11, 0, 11)
 data.setCell(11, 1, 'verifySignUpForm')
-data.setCell(11, 2, 'tests.SignupTest')
-data.setCell(11, 3, 3167);
+data.setCell(11, 2, 'tests.ProductDetailsTest')
+data.setCell(11, 3, 1658);
 data.setCell(12, 0, 12)
 data.setCell(12, 1, 'verifySignUpForm')
-data.setCell(12, 2, 'tests.SignupTest')
-data.setCell(12, 3, 3141);
+data.setCell(12, 2, 'tests.ProductDetailsTest')
+data.setCell(12, 3, 1590);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'verifySearchTabRedirection')
-data.setCell(13, 2, 'tests.SignupTest')
-data.setCell(13, 3, 58);
+data.setCell(13, 1, 'verifySignUpForm')
+data.setCell(13, 2, 'tests.ProductDetailsTest')
+data.setCell(13, 3, 1482);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'verifyPopUpLinkRedirection')
-data.setCell(14, 2, 'tests.SignupTest')
-data.setCell(14, 3, 31);
+data.setCell(14, 1, 'verifySignUpForm')
+data.setCell(14, 2, 'tests.ProductDetailsTest')
+data.setCell(14, 3, 1453);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifySignUpForm')
+data.setCell(15, 2, 'tests.ProductDetailsTest')
+data.setCell(15, 3, 1392);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifyFashionTypeRedirection')
+data.setCell(16, 2, 'tests.ProductDetailsTest')
+data.setCell(16, 3, 1308);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verifySignUpForm')
+data.setCell(17, 2, 'tests.ProductDetailsTest')
+data.setCell(17, 3, 1095);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'verifySignUpLinkRedirection')
+data.setCell(18, 2, 'tests.ProductDetailsTest')
+data.setCell(18, 3, 266);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'verifyCurrencyDropdownRedirection')
+data.setCell(19, 2, 'tests.ProductDetailsTest')
+data.setCell(19, 3, 249);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'verifySignInLinkRedirection')
+data.setCell(20, 2, 'tests.ProductDetailsTest')
+data.setCell(20, 3, 209);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'verifyProductSearchRedirection')
+data.setCell(21, 2, 'tests.ProductDetailsTest')
+data.setCell(21, 3, 166);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'verifySearchButtonRedirection')
+data.setCell(22, 2, 'tests.ProductDetailsTest')
+data.setCell(22, 3, 165);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'verifyDNKRedirection')
+data.setCell(23, 2, 'tests.ProductDetailsTest')
+data.setCell(23, 3, 25);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 58 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -457,134 +697,210 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">tests.SignupTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">tests.ProductDetailsTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">initPage</span>
-                <span class="method-start">8900 ms</span>
+                <span class="method-start">11868 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifySearchTabRedirection</span>
-                <span class="method-start">8909 ms</span>
+                <span class="method-name">verifyFacebookIconRedirection</span>
+                <span class="method-start">11901 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">initPage</span>
-                <span class="method-start">8983 ms</span>
+                <span class="method-start">16599 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyPopUpLinkRedirection</span>
-                <span class="method-start">8984 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifySignUpForm(, , , , , , invalid, false)</span>
-                <span class="method-start">9028 ms</span>
+                <span class="method-name">verifyTwitterIconRedirection</span>
+                <span class="method-start">16600 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">initPage</span>
-                <span class="method-start">9028 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">initPage</span>
-                <span class="method-start">15910 ms</span>
+                <span class="method-start">20145 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifySignUpForm(, User, test@test.com, test@test.com, pass@123, pass@123, invalid, false)</span>
-                <span class="method-start">15913 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifySignUpForm(Test, , test@test.com, test@test.com, pass@123, pass@123, invalid, false)</span>
-                <span class="method-start">21027 ms</span>
+                <span class="method-name">verifyPinterestIconRedirection</span>
+                <span class="method-start">20145 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">initPage</span>
-                <span class="method-start">21027 ms</span>
+                <span class="method-start">27460 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifySignUpForm(Test, User, , , pass@123, pass@123, invalid, false)</span>
-                <span class="method-start">24930 ms</span>
+                <span class="method-name">verifyLinkedInIconRedirection</span>
+                <span class="method-start">27462 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyMySpaceIconRedirection</span>
+                <span class="method-start">34870 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">initPage</span>
-                <span class="method-start">24930 ms</span>
+                <span class="method-start">34870 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">initPage</span>
-                <span class="method-start">28116 ms</span>
+                <span class="method-start">38218 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifySignUpForm(Test, User, test@test.com, , pass@123, pass@123, invalid, false)</span>
-                <span class="method-start">28127 ms</span>
+                <span class="method-name">verifyEmailIconRedirection</span>
+                <span class="method-start">38219 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">initPage</span>
-                <span class="method-start">32012 ms</span>
+                <span class="method-start">39913 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifySignUpForm(Test, User, test@test.com, test@test.com, , pass@123, invalid, false)</span>
-                <span class="method-start">32017 ms</span>
+                <span class="method-name">verifyProductSearchRedirection</span>
+                <span class="method-start">39913 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">initPage</span>
-                <span class="method-start">35964 ms</span>
+                <span class="method-start">40081 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifySignUpForm(Test, User, test@test.com, test@test.com, pass@123, , invalid, false)</span>
-                <span class="method-start">35964 ms</span>
+                <span class="method-name">verifySearchButtonRedirection</span>
+                <span class="method-start">40081 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">initPage</span>
-                <span class="method-start">41610 ms</span>
+                <span class="method-start">40249 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifySignUpForm(Test, User, test@test.com, test123@test.com, pass@123, pass@123, invalid, false)</span>
-                <span class="method-start">41620 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifySignUpForm(Test, User, test@test.com, test@test.com, pass@123, pass123@123, invalid, false)</span>
-                <span class="method-start">44769 ms</span>
+                <span class="method-name">verifyAllItemsLinkRedirection</span>
+                <span class="method-start">40250 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">initPage</span>
-                <span class="method-start">44769 ms</span>
+                <span class="method-start">46998 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifySignUpForm(, #^$^%$, test@test.com, test@test.com, pass@123, pass@123, invalid, false)</span>
-                <span class="method-start">48662 ms</span>
+                <span class="method-name">verifyFashionTypeRedirection</span>
+                <span class="method-start">46999 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">initPage</span>
-                <span class="method-start">48662 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">initPage</span>
-                <span class="method-start">52394 ms</span>
+                <span class="method-start">48309 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifySignUpForm(1234, User, test@test.com, test@test.com, pass@123, pass@123, invalid, false)</span>
-                <span class="method-start">52394 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifySignUpForm(Test, User, test, test, pass@123, pass@123, invalid, false)</span>
-                <span class="method-start">56925 ms</span>
+                <span class="method-name">verifyHandBagRedirection</span>
+                <span class="method-start">48309 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">initPage</span>
-                <span class="method-start">56925 ms</span>
+                <span class="method-start">52338 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyBraceletsRedirection</span>
+                <span class="method-start">52339 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">initPage</span>
+                <span class="method-start">56399 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyWomensPageRedirection</span>
+                <span class="method-start">56400 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">initPage</span>
+                <span class="method-start">65464 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyDNKRedirection</span>
+                <span class="method-start">65465 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">initPage</span>
+                <span class="method-start">65493 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySignUpLinkRedirection</span>
+                <span class="method-start">65494 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySignInLinkRedirection</span>
+                <span class="method-start">65764 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">initPage</span>
+                <span class="method-start">65764 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductDetailsPageRedirection</span>
+                <span class="method-start">65975 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">initPage</span>
+                <span class="method-start">65975 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">initPage</span>
-                <span class="method-start">61273 ms</span>
+                <span class="method-start">85350 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifySignUpForm(Bob, User, test6f@gmail.com, test6f@gmail.com, bob.bob@123, bob.bob@123, valid, true)</span>
-                <span class="method-start">61287 ms</span>
+                <span class="method-name">verifyCurrencyDropdownRedirection</span>
+                <span class="method-start">85351 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySignUpForm(, , , , invalid, false)</span>
+                <span class="method-start">85604 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">initPage</span>
+                <span class="method-start">85604 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initPage</span>
+                <span class="method-start">86700 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySignUpForm(, Test, testbv@gmail.com, https://academybugs.com/store, invalid, false)</span>
+                <span class="method-start">86701 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">initPage</span>
+                <span class="method-start">88156 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySignUpForm(Test, , testbv@gmail.com, https://academybugs.com/store, invalid, false)</span>
+                <span class="method-start">88156 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">initPage</span>
+                <span class="method-start">89816 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySignUpForm(Test, User, , https://academybugs.com/store, invalid, false)</span>
+                <span class="method-start">89816 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">initPage</span>
+                <span class="method-start">91408 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySignUpForm(Test, User, testbv@gmail.com, , invalid, false)</span>
+                <span class="method-start">91409 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">initPage</span>
+                <span class="method-start">92892 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifySignUpForm(Test, User, test@test.com, https://academybugs.com/store, valid, true)</span>
+                <span class="method-start">92893 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">67912 ms</span>
+                <span class="method-start">94288 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

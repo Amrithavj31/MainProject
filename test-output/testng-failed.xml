@@ -3,14 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.SignupTest">
+      <class name="tests.ProductDetailsTest">
         <methods>
-          <include name="verifyProductDetailsLinkRedirection"/>
+          <include name="verifyDNKRedirection"/>
           <include name="initPage"/>
+          <include name="verifySignUpForm" invocation-numbers="5"/>
           <include name="tearDown"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- tests.SignupTest -->
+      </class> <!-- tests.ProductDetailsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

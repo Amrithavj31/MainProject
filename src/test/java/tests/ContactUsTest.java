@@ -31,9 +31,11 @@ public class ContactUsTest extends BaseTest{
 	            Assert.assertFalse(contact.isOnContactForm(),"Form should submit for valid data");
 	        } else {
 	            Assert.assertTrue(contact.isOnContactForm(),"Form should not submit for invalid data");
+	            String screenshotName =getClass().getSimpleName() + "_InvalidContactUsForm_" + expectedResult;
+	            takeScreenshot(screenshotName); 
 	        }
 	
-	        System.out.println("Tested → " + firstName + ", " + lastName + ", " + email + " | Expected: " + expectedResult+ " | isValid: " + isValid);
+	        System.out.println("Test case : Contact form tested successfully");
 	    }
 
 	    @DataProvider(name = "contactFormData")

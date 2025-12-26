@@ -28,7 +28,7 @@ public class SignupTest extends BaseTest{
 		 System.out.println("Test case : Pop up  link retrieved successfully");
 	 }
 	
-	  @Test(priority = 2, dataProvider = "signUpData")
+	  @Test(priority = 3, dataProvider = "signUpData")
 	    public void verifySignUpForm(String firstName,String lastName,String email,String retypeEmail,String password,String retypePassword,String expectedResult,boolean isValid) {
 		  	String url=signup.fillSignUpForm(firstName, lastName, email, retypeEmail,password,retypePassword);
 		  	signup.clickSend();
@@ -44,8 +44,9 @@ public class SignupTest extends BaseTest{
 	        	 
 	             Assert.assertTrue(signup.isOnSignUpForm(),"User should remain on Signup page for invalid data");
 	             System.out.println("Test case : Invalid data - expecting to stay on Signup page");
+	             String screenshotName =getClass().getSimpleName() +expectedResult;
+	             takeScreenshot(screenshotName);    
 	        }
-	
 	        System.out.println("Test case : Sign up form completed successfully");
 	    }
 
