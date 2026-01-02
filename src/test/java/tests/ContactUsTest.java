@@ -1,7 +1,6 @@
 package tests;
 
 import org.testng.Assert;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -58,9 +57,5 @@ public class ContactUsTest extends BaseTest{
 	        };
 	    }
 
-	 @AfterTest
-	  public void tearDownTest() {
-	      driver.quit();
-	  }
 
 }

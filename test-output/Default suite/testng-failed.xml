@@ -5,10 +5,9 @@
     <classes>
       <class name="tests.ProductDetailsTest">
         <methods>
-          <include name="verifyDNKRedirection"/>
           <include name="initPage"/>
-          <include name="verifySignUpForm" invocation-numbers="5"/>
           <include name="tearDown"/>
+          <include name="verifyInvalidCouponCode"/>
           <include name="setup"/>
         </methods>
       </class> <!-- tests.ProductDetailsTest -->

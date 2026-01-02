@@ -37,44 +37,32 @@ public class ContactUsPage {
 	   	 	System.out.println("size "+elements.size()                                                                                                                                                                                                                                                                              );
 	        return elements.size();
 	  }
-	  
-
-	 
 	  public void clickFirstNameLink(String firstName) {
 		  driver.navigate().to("https://academybugs.com/contact-us-form/");
-//		  wait.until(ExpectedConditions.visibilityOfElementLocated(firstNameField));
 		  WebElement element = driver.findElement(firstNameField);
 		  element.clear();
 		  element.sendKeys(firstName);	
 	  }
 	  public void clickLastNameLink(String lastName) {
-//		  wait.until(ExpectedConditions.visibilityOfElementLocated(lastNameField));
 		  driver.findElement(lastNameField).sendKeys(lastName);
 	  }
 	  public void clickEmailLink(String email) {
-//		  wait.until(ExpectedConditions.visibilityOfElementLocated(emailField));
 		  driver.findElement(emailField).sendKeys(email);
 	  }
 	  public void clickSubjectLink(String subject) {
-//		  wait.until(ExpectedConditions.visibilityOfElementLocated(subjectField));
 		  driver.findElement(subjectField).sendKeys(subject);
 	  }
 	  public void clickMessageLink(String message) {
-//		  wait.until(ExpectedConditions.visibilityOfElementLocated(messageField));
 		  driver.findElement(messageField).sendKeys(message);
 	  }
 	  public void clickSendButtonLink() {
-//		  wait.until(ExpectedConditions.visibilityOfElementLocated(sendButton));
 		  driver.findElement(sendButton).click();
 	  }
-	// Fill form fields
 	    public void fillContactForm(String firstName,String lastName,String email,String subject,String message) {
 	    	 driver.navigate().to("https://academybugs.com/contact-us-form/");
 
-	    	    wait.until(ExpectedConditions.visibilityOfElementLocated(firstNameField));
+	    	wait.until(ExpectedConditions.visibilityOfElementLocated(firstNameField));
 
-
-//	        wait.until(ExpectedConditions.visibilityOfElementLocated(firstNameField));
 	        driver.findElement(firstNameField).clear();
 	        driver.findElement(firstNameField).sendKeys(firstName);
 

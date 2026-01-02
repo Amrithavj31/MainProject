@@ -26,7 +26,7 @@ public class SignupPage {
     private By checkboxField=By.xpath("//*[@id=\"ec_account_register_is_subscriber\"]");
     private By signOutField=By.xpath("//*[@id=\"ec_account_dashboard\"]/div[3]/div[6]/a");
     
-    public SignupPage(WebDriver driver) {
+      public SignupPage(WebDriver driver) {
 		  this.driver = driver;
 		  this.wait = new WebDriverWait(driver, Duration.ofSeconds(20));
 	  }

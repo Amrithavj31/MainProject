@@ -15,13 +15,35 @@ public class BookingTableTests extends BaseTest {
 	    public void initPage() {
 		 	table = new BookingTablePage(driver);
 	    }
-	 @Test(priority = 3, dataProvider = "signUpData")
-	    public void verifySignUpForm(String name,String email,String phone,String message,String expectedResult,boolean isValid) {
+	 @Test(priority=1)
+	 public void verifyBookingTableTabRedirection() {
+		 String url=table.clickBookingTableTab();
+		 Assert.assertTrue(url.contains("academybugs.com"));
+		 System.out.println("Test case : Booking table tab redirection");
+	 }
+	 @Test(priority=2)
+	 public void verifyDateField() {
+		 table.clickDateField();
+		 System.out.println("Test case : Date field verified successfully");
+	 }
+	 
+	 @Test(priority=3)
+	 public void verifyTimeField() {
+		 table.clickTimeField();
+		 System.out.println("Test case : Time field verified successfully");
+	 }
+	 @Test(priority=4)
+	 public void verifyPartyField() {
+		 table.clickPartyField();
+		 System.out.println("Test case : Party field verified successfully");
+	 }
+	 @Test(priority = 5, dataProvider = "bookingTableData")
+	    public void verifyBookingTableForm(String name,String email,String phone,String message,String expectedResult,boolean isValid) {
 		  	String url=table.fillBookingTableForm(name, email, phone,message);
 		  	table.clickSend();
 	
 	        if (isValid) {
-	               Assert.assertTrue(url.contains("ec_page=register") ,"User was NOT redirected to Dashboard after valid signup");
+	               Assert.assertTrue(url.contains("my-bookings") ,"User was NOT redirected to Dashboard after valid signup");
 	               System.out.println("Test case : Valid data - expecting Dashboard redirection");
 	               
 	        } else {
@@ -29,11 +51,11 @@ public class BookingTableTests extends BaseTest {
 	             String screenshotName =getClass().getSimpleName() +expectedResult;
 	             takeScreenshot(screenshotName);    
 	        }
-	        System.out.println("Test case : Sign up form completed successfully");
+	        System.out.println("Test case : Booking table form completed successfully");
 	    }
 
-	    @DataProvider(name = "signUpData")
-	    public Object[][] contactFormData() {
+	    @DataProvider(name = "bookingTableData")
+	    public Object[][] bookingTableData() {
 	    	String base="test";
 	    	String email=getRandomString(2);
 	        return new Object[][]{

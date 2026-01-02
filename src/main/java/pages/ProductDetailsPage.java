@@ -40,14 +40,19 @@ public class ProductDetailsPage {
     private By signInLink = By.xpath("//*[@id=\"login-from-side-menu\"]/div[6]/button");
     private By filterByPriceLink = By.xpath("//*[@id=\"secondary\"]/div[6]/div/a");
     private By productDetailsLink = By.xpath("//a[@class='ec_product_title_link']");
+    private By cartCountData =By.xpath("//*[@id=\"ec_quantity_5_1\"]");
     // Leave a reply
     private By commentField = By.xpath("//*[@id=\"comment\"]");
     private By nameField = By.xpath("//*[@id=\"author\"]");
     private By emailField = By.xpath("//*[@id=\"email\"]");
     private By websiteField = By.xpath("//*[@id=\"url\"]");
     private By postCommentButton =By.xpath("//*[@id=\"url\"]");
+    private By cartValue=By.xpath("//*[@id=\"ec_final_price_5_1\"]");
+    private By productValue=By.xpath("//*[@id=\"ec_cartitem_price_2136917\"]");
+    private By countValue = By.xpath("//*[@id=\"ec_quantity_2136917\"]");
+    private By invalidCoupon=By.xpath("//*[@id=\"ec_coupon_code\"]");
+    private By invalidGiftCard=By.xpath("//*[@id=\"ec_gift_card\"]");
     
-
 
     public ProductDetailsPage(WebDriver driver) {
         this.driver = driver;
@@ -223,5 +228,36 @@ public class ProductDetailsPage {
 	}
     public void clickSend() {
         driver.findElement(postCommentButton).click();
+    }
+    public int clickCartCountValue() {
+    	wait.until(ExpectedConditions.visibilityOfElementLocated(cartCountData));
+    	String data= driver.findElement(cartCountData).getText();
+    	int count= Integer.parseInt(data);
+    	return count;
+    }
+    public int clickCartValue() {
+    	wait.until(ExpectedConditions.visibilityOfElementLocated(cartValue));
+    	String val=driver.findElement(cartValue).getText();
+    	int value = Integer.parseInt(val);
+    	return value;
+    }
+    public String clickProductAmount() {
+    	String prod=driver.findElement(productValue).getText();
+    	System.out.println("valueeeee"+prod);
+    	return prod;
+    }
+    public String clickCountValue() {
+    	WebElement qty = wait.until(
+    	        ExpectedConditions.visibilityOfElementLocated(countValue)
+    	    );
+    	    return qty.getAttribute("value"); // IMPORTANT for input fields
+    }
+    public void clickInvalidCoupon() {
+    	driver.navigate().to("https://academybugs.com/store/dnk-yellow-shoes/");
+    	driver.findElement(invalidCoupon).sendKeys("TESTCOUPON");
+    }
+    public void clickInvalidGiftCard() {
+    	driver.navigate().to("https://academybugs.com/store/dnk-yellow-shoes/");
+    	driver.findElement(invalidGiftCard).sendKeys("TESTGIFT");
     }
 }

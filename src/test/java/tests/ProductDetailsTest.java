@@ -122,17 +122,11 @@ public class ProductDetailsTest extends BaseTest {
 	    public void verifySignUpForm(String comment,String name,String email,String website,String expectedResult,boolean isValid) {
 		  	String url=product.fillLeaveReplyForm(comment, name, email, website);
 		  	product.clickSend();
-	
 	        if (isValid) {
 	               Assert.assertTrue(url.contains("comment") ,"User was NOT redirected to comment after valid leaving reply");
-//	               Assert.assertFalse(product.isOnSignUpForm(),"Signup form should not be visible after successful registration");
-//	               int resp = product.clickSignOutLink();
-//	               Assert.assertTrue(resp > 0, "Signout page retrieved successfully");
 	               System.out.println("Test case : Valid data - expecting Dashboard redirection");
 	               
 	        } else {
-	        	 
-//	             Assert.assertTrue(signup.isOnSignUpForm(),"User should remain on Signup page for invalid data");
 	             System.out.println("Test case : Invalid data - expecting to stay on product page");
 	             String screenshotName =getClass().getSimpleName() +expectedResult;
 	             takeScreenshot(screenshotName);    
@@ -165,5 +159,15 @@ public class ProductDetailsTest extends BaseTest {
 	        }
 	        String email= base + sb.toString() + "@gmail.com";
 	        return email;
+	    }
+	    @Test(priority=20)
+	    public void verifyInvalidCouponCode() {
+	    	product.clickInvalidCoupon();
+	    	System.out.println("Test case : Invalid coupon code added sucessfully");
+	    }
+	    @Test(priority=21)
+	    public void verifyInvalidGiftCard() {
+	    	product.clickInvalidGiftCard();
+	    	System.out.println("Test case : Invalid gift card added sucessfully");
 	    }
 }

@@ -1,7 +1,6 @@
 package tests;
 
 import org.testng.Assert;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -81,9 +80,5 @@ public class DashboardTest extends BaseTest {
 		Assert.assertTrue(resp > 0, "Help link icon bug retrieved successfully");
 		System.out.println("Test case : Help link icon navigated successfully!! ");
     }
-	@AfterTest
-	public void tearDownTest() {
-	    driver.quit();
-	}
 	  
 }
